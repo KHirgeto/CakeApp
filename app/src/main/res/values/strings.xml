@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">CakeApp</string>
+    <string name="Logintoyouaccount">Login to you account</string>
+    <string name="Name">Name</string>
+    <string name="Password">Password</string>
+    <string name="Submit">Submit</string>
+    <string name="NewhereCreateanaccount">New here? Create an account</string>
+    <string name="login">Log In</string>
+
+    <string name="Createyouraccount">Create your account</string>
+    <string name="Phone">Phone</string>
+    <string name="Email">Email</string>
+    <string name="Address">Address</string>
+    <string name="signup">Sign Up</string>
+    <string name="AlreadyhaveanaccountLoginhere">Already have an account Login here</string>
+
+
 </resources>
