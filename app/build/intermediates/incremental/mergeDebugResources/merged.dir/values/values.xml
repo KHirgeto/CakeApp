@@ -383,16 +383,23 @@
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="config_tooltipAnimTime">150</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="Account">Account</string>
     <string name="Address">Address</string>
     <string name="AlreadyhaveanaccountLoginhere">Already have an account Login here</string>
     <string name="Createyouraccount">Create your account</string>
     <string name="Email">Email</string>
+    <string name="Followus">Follow us</string>
+    <string name="Home">Home</string>
+    <string name="KHirgeto">K Hirgeto</string>
     <string name="Logintoyouaccount">Login to you account</string>
+    <string name="Logout">Logout</string>
     <string name="Name">Name</string>
     <string name="NewhereCreateanaccount">New here? Create an account</string>
     <string name="Password">Password</string>
     <string name="Phone">Phone</string>
+    <string name="Shop">Shop</string>
     <string name="Submit">Submit</string>
+    <string name="TestSee">Test and See</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
     <string name="abc_action_menu_overflow_description">More options</string>
@@ -421,10 +428,15 @@
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">CakeApp</string>
+    <string name="cakename">Cake Name</string>
+    <string name="email">KKhir001@gmail.com</string>
     <string name="login">Log In</string>
+    <string name="name">name</string>
     <string name="search_menu_title">Search</string>
+    <string name="setting">Setting</string>
     <string name="signup">Sign Up</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="time">time</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

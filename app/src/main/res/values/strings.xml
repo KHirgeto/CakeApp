@@ -14,5 +14,19 @@
     <string name="signup">Sign Up</string>
     <string name="AlreadyhaveanaccountLoginhere">Already have an account Login here</string>
 
+    <string name="cakename">Cake Name</string>
+    <string name="name">name</string>
+    <string name="time">time</string>
+
+    <string name="Home">Home</string>
+    <string name="Account">Account</string>
+    <string name="Shop">Shop</string>
+    <string name="Followus">Follow us</string>
+    <string name="TestSee">Test and See</string>
+    <string name="Logout">Logout</string>
+    <string name="KHirgeto">K Hirgeto</string>
+    <string name="email">KKhir001@gmail.com</string>
+    <string name="setting">Setting</string>
+
 
 </resources>

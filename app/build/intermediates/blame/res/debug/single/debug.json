@@ -1,314 +1,714 @@
 [
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_signbg1.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/signbg1.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_whiteleftarrow.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\whiteleftarrow.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_back.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/back.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_whiteleftarrow.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\whiteleftarrow.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_signbg2.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/signbg2.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_carrocake.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\carrocake.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_back.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/back.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_openic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\openic.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logoutic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\logoutic.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_logo.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/logo.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_logoutic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\logoutic.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_signbg2.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/signbg2.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_loginbgtwo.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\loginbgtwo.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/layout_activity_log_in.xml.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/layout/activity_log_in.xml"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_logo.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\logo.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_menu.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/menu.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_keylimecake.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\keylimecake.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_submit.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/submit.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_cakelistbg.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\cakelistbg.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_back.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/back.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_signbg1.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\signbg1.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_back.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\back.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_signbg2.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/signbg2.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_submit.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\submit.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_submit.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/submit.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_redcake.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\redcake.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/layout_row.xml.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/layout/row.xml"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_shopic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\shopic.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_signbg1.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/signbg1.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_logo.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\logo.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable_white_curve.xml.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable/white_curve.xml"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_loginbgtwo.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\loginbgtwo.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_btnbg_no_text.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/btnbg_no_text.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_homeic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\homeic.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_loginbg1.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/loginbg1.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_whiteleftarrow.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\whiteleftarrow.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_menu.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/menu.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_foodlistbg.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\foodlistbg.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_signbg2.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/signbg2.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_loginbg1.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\loginbg1.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_back.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/back.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_loginbg1.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\loginbg1.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_menu.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/menu.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_facebookic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\facebookic.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_btnbg_no_text.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/btnbg_no_text.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_signbg1.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/signbg1.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_face.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\face.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_btnbg.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/btnbg.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_btnbg.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\btnbg.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_loginbgtwo.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/loginbgtwo.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_logo.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\logo.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_loginbg1.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/loginbg1.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_homeic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\homeic.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_submit.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/submit.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_redcake.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\redcake.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_loginbgtwo.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/loginbgtwo.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_useric.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\useric.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_logo.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/logo.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_signbg2.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\signbg2.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_btnbg_no_text.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/btnbg_no_text.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btnbg_no_text.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\btnbg_no_text.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_loginbg1.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/loginbg1.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_loginbgtwo.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\loginbgtwo.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_btnbg.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/btnbg.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_menu.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\menu.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_logo.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/logo.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_setingcurve.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\setingcurve.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_openic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\openic.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_btnbg.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/btnbg.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_logouticon.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\logouticon.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_redcake.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\redcake.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_btnbg.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/btnbg.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_cakelistbg.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\cakelistbg.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_loginbgtwo.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/loginbgtwo.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_setingcurve.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\setingcurve.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_loginbgtwo.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/loginbgtwo.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cakelistbg.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\cakelistbg.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_signbg2.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/signbg2.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_back.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\back.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_loginbg1.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/loginbg1.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_submit.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\submit.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_loginbg1.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/loginbg1.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btnbg.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\btnbg.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/layout/activity_main.xml"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_signbg1.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\signbg1.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_menu.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/menu.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_facebookic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\facebookic.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_btnbg_no_text.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/btnbg_no_text.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_shopic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\shopic.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_signbg1.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/signbg1.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_btnbg_no_text.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/btnbg_no_text.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_signbg2.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\signbg2.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_menu.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/menu.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_face.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\face.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_btnbg.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/btnbg.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_homeic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\homeic.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_carrocake.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\carrocake.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_submit.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/submit.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_face.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\face.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_redcake.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\redcake.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_btnbg_no_text.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/btnbg_no_text.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_carrocake.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\carrocake.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_back.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/back.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_logoutic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\logoutic.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_loginbgtwo.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/loginbgtwo.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_logoutic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\logoutic.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_submit.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/submit.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_signbg1.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\signbg1.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_logo.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/logo.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_face.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\face.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_back.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/back.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_loginbg1.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\loginbg1.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_signbg2.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/signbg2.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_keylimecake.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\keylimecake.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_back.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\back.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_logo.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/logo.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_btnbg_no_text.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\btnbg_no_text.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/layout_activity_sign_up.xml.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/layout/activity_sign_up.xml"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_useric.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\useric.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_signbg1.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\signbg1.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_strawcake.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\strawcake.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_loginbgtwo.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/loginbgtwo.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_keylimecake.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\keylimecake.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_signbg1.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/signbg1.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_keylimecake.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\keylimecake.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_submit.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/submit.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_btnbg.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/btnbg.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cakelistbg.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\cakelistbg.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_whiteleftarrow.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\whiteleftarrow.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_menu.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/menu.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_whiteleftarrow.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\whiteleftarrow.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_logo.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/logo.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_homeic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\homeic.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_signbg1.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/signbg1.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_redcake.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\redcake.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_homeic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\homeic.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_loginbg1.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/loginbg1.png"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_openic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\openic.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_btnbg_no_text.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\btnbg_no_text.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_signbg2.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\signbg2.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_loginbg1.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\loginbg1.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_foodlistbg.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\foodlistbg.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logouticon.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\logouticon.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_face.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\face.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_back.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_btnbg.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\btnbg.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_setingcurve.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\setingcurve.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_loginbgtwo.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\loginbgtwo.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_strawcake.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\strawcake.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_back.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_setingcurve.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\setingcurve.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_btnbg.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\btnbg.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_foodlistbg.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\foodlistbg.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_homeic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\homeic.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_useric.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\useric.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_setingcurve.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\setingcurve.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_signbg2.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\signbg2.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_signbg2.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\signbg2.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btnbg.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\btnbg.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_openic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\openic.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_submit.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\submit.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_submit.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\submit.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btnbg.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\btnbg.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_curvebg.xml.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable\\curvebg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_redcake.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\redcake.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_carrocake.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\carrocake.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white_curve.xml.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable\\white_curve.xml"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_shopic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\shopic.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_signbg1.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\signbg1.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_setingcurve.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\setingcurve.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_foodlistbg.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\foodlistbg.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cake_order_list.xml.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\layout\\activity_cake_order_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_facebookic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\facebookic.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_carrocake.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\carrocake.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btnbg_no_text.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\btnbg_no_text.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_signbg2.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\signbg2.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_face.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\face.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_logo.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_loginbg1.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\loginbg1.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_strawcake.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\strawcake.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_menu.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\menu.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logoutic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\logoutic.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_shopic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\shopic.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_strawcake.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\strawcake.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_facebookic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\facebookic.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_menu.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\menu.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_foodlistbg.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\foodlistbg.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_foodlistbg.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\foodlistbg.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_carrocake.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\carrocake.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_whiteleftarrow.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\whiteleftarrow.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_submit.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\submit.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_facebookic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\facebookic.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_shopic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\shopic.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_cakelistbg.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\cakelistbg.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_menu.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\menu.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_strawcake.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\strawcake.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_logoutic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\logoutic.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_keylimecake.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\keylimecake.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_signbg1.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\signbg1.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_logouticon.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\logouticon.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_back.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_row.xml.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\layout\\row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_useric.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\useric.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_btnbg_no_text.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\btnbg_no_text.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_menu.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\menu.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_loginbgtwo.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\loginbgtwo.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_loginbgtwo.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\loginbgtwo.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_openic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\openic.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_log_in.xml.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\layout\\activity_log_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_cakelistbg.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\cakelistbg.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_logouticon.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\logouticon.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_useric.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\useric.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_logouticon.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\logouticon.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btnbg_no_text.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\btnbg_no_text.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_openic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-mdpi\\openic.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_facebookic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\facebookic.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_keylimecake.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\keylimecake.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_activity_setting.xml.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\layout-v21\\activity_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_shopic.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\shopic.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logouticon.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-hdpi\\logouticon.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_loginbg1.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xhdpi\\loginbg1.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_useric.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\useric.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_setting.xml.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_strawcake.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-ldpi\\strawcake.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_submit.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxxhdpi\\submit.png"
+    },
+    {
+        "merged": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_menu.png.flat",
+        "source": "C:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\src\\main\\res\\drawable-xxhdpi\\menu.png"
     }
 ]

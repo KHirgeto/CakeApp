@@ -1,4 +1,4 @@
-#Sat Sep 26 17:22:41 EDT 2020
-base.0=/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Sun Sep 27 00:40:02 EDT 2020
+base.0=C\:\\Users\\Digital\\Documents\\App\\CakeApp\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
