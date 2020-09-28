@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -14,6 +15,8 @@ import com.google.gson.Gson;
 //import com.google.gson.Gson;
 
 public class SignUpActivity extends AppCompatActivity {
+    public static final String TAG = "BBBBBBB2";
+    public static final String TAG2 = "CCCCCCCCCC";
     Button signup, login;
     EditText nameET,passwordET, phoneET,emailET,adressET;
     @Override
@@ -21,7 +24,7 @@ public class SignUpActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
 
-        signup = (Button) findViewById(R.id.signupBTN);
+        signup = (Button) findViewById(R.id.ssignupBTN);
         login = (Button) findViewById(R.id.loginBTN);
         nameET = (EditText) findViewById(R.id.snameET);
         passwordET = (EditText) findViewById(R.id.spasswordET);
@@ -30,7 +33,7 @@ public class SignUpActivity extends AppCompatActivity {
         adressET = (EditText) findViewById(R.id.saddressET);
         if(check())
         {
-            Intent intent = new Intent(SignUpActivity.this,LogInActivity.class);
+            Intent intent = new Intent(SignUpActivity.this,SettingActivity.class);
             startActivity(intent);
             finish();
         }
@@ -48,12 +51,27 @@ public class SignUpActivity extends AppCompatActivity {
                 public void onClick(View view) {
                     User user;
                     user = new User(nameET.getText().toString(),passwordET.getText().toString(),phoneET.getText().toString(),emailET.getText().toString(),adressET.getText().toString());
-                    SharedPreferences mPrefs = getSharedPreferences("Name", Context.MODE_PRIVATE);
+
+                    String name = user.getName();
+                    String password = user.getPassword();
+                    String phone = user.getPhone();
+                    String email = user.getEmail();
+                    String address = user.getAddress();
+
+                    SharedPreferences mPrefs = getSharedPreferences("NamePref", Context.MODE_PRIVATE);
                     SharedPreferences.Editor prefsEditor = mPrefs.edit();
-                    Gson gson = new Gson();
-                    String json = gson.toJson(user);
-                    prefsEditor.putString("key",json);
+                  //  Gson gson = new Gson();
+                 //   String json = gson.toJson(user);
+                    prefsEditor.putString("name",name);
+                    prefsEditor.putString("password",password);
+                    prefsEditor.putString("phone",phone);
+                    prefsEditor.putString("email",email);
+                    prefsEditor.putString("address",address);
                     prefsEditor.commit();
+
+
+                    Intent intent = new Intent(SignUpActivity.this,SettingActivity.class);
+                    startActivity(intent);
                 }
             });
 
@@ -64,12 +82,15 @@ public class SignUpActivity extends AppCompatActivity {
     }
     public boolean check()
     {
-        SharedPreferences mPrefs = getSharedPreferences("Name", Context.MODE_PRIVATE);
-        Gson gson = new Gson();
-        String json = mPrefs.getString("Key", "");
-        User userObj = gson.fromJson(json, User.class);
-        if(json.equals(""))
+        SharedPreferences mPrefs = getSharedPreferences("NamePref", Context.MODE_PRIVATE);
+//        Gson gson = new Gson();
+//        String json = mPrefs.getString("Key", "");
+//        User obj = gson.fromJson(json, User.class);
+        String name = mPrefs.getString("name","");
+
+        if(name.equals(""))
         {
+
             return false;
         }
         else

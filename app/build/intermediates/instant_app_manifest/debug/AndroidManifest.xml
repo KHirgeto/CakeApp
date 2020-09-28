@@ -22,15 +22,21 @@
         <activity android:name="com.kingstech_app.cakeapp.AccountActivity" />
         <activity android:name="com.kingstech_app.cakeapp.SettingActivity" />
         <activity android:name="com.kingstech_app.cakeapp.CakeOrderList" />
-        <activity android:name="com.kingstech_app.cakeapp.SignUpActivity" />
-        <activity android:name="com.kingstech_app.cakeapp.LogInActivity" >
+        <activity android:name="com.kingstech_app.cakeapp.SignUpActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.kingstech_app.cakeapp.LogInActivity" >
+        </activity>
         <activity android:name="com.kingstech_app.cakeapp.MainActivity" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.kingstech_app.cakeapp.com.squareup.picasso"
+            android:exported="false" />
     </application>
 
 </manifest>

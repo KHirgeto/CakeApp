@@ -10,6 +10,15 @@ public class User {
         this.email = email;
         this.address = address;
     }
+    public User()
+    {
+        this.name = "";
+        this.password = "";
+        this.phone = "";
+        this.email = "";
+        this.address = "";
+    }
+
 
     public String getName() {
         return name;

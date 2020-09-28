@@ -149,7 +149,7 @@
                         android:textColor="@color/colorPrimaryDark"
                         />
                     <Button
-                        android:id="@+id/signupBTN"
+                        android:id="@+id/ssignupBTN"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/btnbg_no_text"

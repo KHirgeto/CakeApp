@@ -12,13 +12,14 @@
         <activity android:name=".AccountActivity"></activity>
         <activity android:name=".SettingActivity" />
         <activity android:name=".CakeOrderList" />
-        <activity android:name=".SignUpActivity" />
-        <activity android:name=".LogInActivity">
+        <activity android:name=".SignUpActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".LogInActivity">
         </activity>
         <activity android:name=".MainActivity" />
     </application>
