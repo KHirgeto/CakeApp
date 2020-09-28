@@ -669,9 +669,11 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable btnbg
 drawable btnbg_no_text
+drawable cake_list_curvebg
 drawable cakelistbg
 drawable carrocake
 drawable curvebg
+drawable email
 drawable face
 drawable facebookic
 drawable foodlistbg
@@ -697,6 +699,8 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable openic
+drawable password
+drawable phone
 drawable redcake
 drawable setingcurve
 drawable shopic
@@ -715,6 +719,12 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+id aAddressET
+id aEmailET
+id aNameET
+id aPassWordET
+id aPhoneET
+id aback
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -827,7 +837,6 @@ id listMode
 id list_item
 id loginBTN
 id logoutBTN
-id logouttBTN
 id menuBTN
 id message
 id middle
@@ -870,6 +879,7 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id select_dialog_listview
+id settinglogouttBTN
 id shopBTN
 id shortcut
 id showCustom
@@ -910,7 +920,12 @@ id topPanel
 id unchecked
 id uniform
 id up
+id updateBTN
+id uploadPhotoBTN
 id useLogo
+id userEmail
+id userName
+id userPhoto
 id withText
 id wrap
 id wrap_content
@@ -954,6 +969,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_account
 layout activity_cake_order_list
 layout activity_log_in
 layout activity_main
@@ -990,6 +1006,8 @@ string Phone
 string Shop
 string Submit
 string TestSee
+string UpdateAccount
+string Uploadprofilephoto
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

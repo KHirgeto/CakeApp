@@ -19,7 +19,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.kingstech_app.cakeapp.Setting" />
+        <activity android:name="com.kingstech_app.cakeapp.AccountActivity" />
+        <activity android:name="com.kingstech_app.cakeapp.SettingActivity" />
         <activity android:name="com.kingstech_app.cakeapp.CakeOrderList" />
         <activity android:name="com.kingstech_app.cakeapp.SignUpActivity" />
         <activity android:name="com.kingstech_app.cakeapp.LogInActivity" >

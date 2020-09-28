@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/white"
-    tools:context=".Setting">
+    tools:context=".SettingActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -89,7 +89,7 @@
         android:orientation="horizontal"
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="70dp"
         >
         <ImageView
             android:layout_width="40dp"
@@ -106,17 +106,11 @@
             android:textSize="25sp"
             android:textAllCaps="false"
             android:background="@color/transparent"
-            android:layout_gravity="center"
+            android:layout_gravity="start"
             android:gravity="center"
-            android:layout_marginStart="10dp"
+
             />
-        <ImageView
-            android:layout_width="12dp"
-            android:layout_height="26dp"
-            android:src="@drawable/openic"
-            android:layout_gravity="center"
-            android:layout_marginStart="180dp"
-            />
+
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -141,17 +135,11 @@
             android:textSize="25sp"
             android:textAllCaps="false"
             android:background="@color/transparent"
-            android:layout_gravity="center"
+            android:layout_gravity="start"
             android:gravity="center"
             android:layout_marginStart="10dp"
             />
-        <ImageView
-            android:layout_width="12dp"
-            android:layout_height="26dp"
-            android:src="@drawable/openic"
-            android:layout_gravity="center"
-            android:layout_marginStart="171dp"
-            />
+
     </LinearLayout>
 
     <LinearLayout
@@ -177,17 +165,10 @@
             android:textSize="25sp"
             android:textAllCaps="false"
             android:background="@color/transparent"
-            android:layout_gravity="center"
+            android:layout_gravity="start"
             android:gravity="center"
-            android:layout_marginStart="10dp"
             />
-        <ImageView
-            android:layout_width="12dp"
-            android:layout_height="26dp"
-            android:src="@drawable/openic"
-            android:layout_gravity="center"
-            android:layout_marginStart="171dp"
-            />
+
     </LinearLayout>
 
     <LinearLayout
@@ -217,13 +198,8 @@
             android:gravity="center"
             android:layout_marginStart="10dp"
             />
-        <ImageView
-            android:layout_width="12dp"
-            android:layout_height="26dp"
-            android:src="@drawable/openic"
-            android:layout_gravity="center"
-            android:layout_marginStart="171dp"
-            />
+
+
     </LinearLayout>
 
     <LinearLayout
@@ -240,7 +216,7 @@
             android:src="@drawable/logoutic"
             />
         <Button
-            android:id="@+id/logouttBTN"
+            android:id="@+id/settinglogouttBTN"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Logout"
@@ -253,13 +229,7 @@
             android:gravity="center"
             android:layout_marginStart="10dp"
             />
-        <ImageView
-            android:layout_width="12dp"
-            android:layout_height="26dp"
-            android:src="@drawable/openic"
-            android:layout_gravity="center"
-            android:layout_marginStart="171dp"
-            />
+
     </LinearLayout>
 
 

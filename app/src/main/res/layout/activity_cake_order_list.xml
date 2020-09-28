@@ -30,7 +30,7 @@
 </LinearLayout>
 
     <ListView
-        android:background="@drawable/curvebg"
+        android:background="@drawable/cake_list_curvebg"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/cakeListView"
