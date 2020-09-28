@@ -62,7 +62,7 @@
 
                         />
                     <EditText
-                        android:id="@+id/nameET"
+                        android:id="@+id/snameET"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/btnbg"
@@ -81,7 +81,7 @@
                         android:layout_marginLeft="20dp"
                         />
                     <EditText
-                        android:id="@+id/passwordET"
+                        android:id="@+id/spasswordET"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/btnbg"
@@ -101,7 +101,7 @@
 
                         />
                     <EditText
-                        android:id="@+id/phoneET"
+                        android:id="@+id/sphoneET"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/btnbg"
@@ -120,7 +120,7 @@
                         android:layout_marginLeft="20dp"
                         />
                     <EditText
-                        android:id="@+id/emailET"
+                        android:id="@+id/semailET"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/btnbg"
@@ -139,7 +139,7 @@
                         android:layout_marginLeft="20dp"
                         />
                     <EditText
-                        android:id="@+id/addressET"
+                        android:id="@+id/saddressET"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/btnbg"

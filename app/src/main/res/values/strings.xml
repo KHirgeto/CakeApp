@@ -31,6 +31,8 @@
     <string name="Uploadprofilephoto">Upload profile photo</string>
     <string name="UpdateAccount">Update Account</string>
 
+    <string name="loginERROR">Can not login, please check your name and password</string>
+
 
 
 
