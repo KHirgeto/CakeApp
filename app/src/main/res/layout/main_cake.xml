@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:outlineSpotShadowColor="@color/exDarkGray"
+        app:cardCornerRadius="30dp">
+
+        <LinearLayout
+            android:id="@+id/cakeBTN"
+            android:layout_width="228dp"
+            android:layout_height="342dp"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/shopCakeIV"
+                android:layout_width="150dp"
+                android:layout_height="135.49dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"
+                android:layout_marginTop="89dp"
+                android:background="@drawable/strawcake"/>
+            <TextView
+                android:id="@+id/shopCakeTitle"
+                android:layout_width="180dp"
+                android:layout_height="58dp"
+                android:text="Strawberry Shortcake"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/exDarkGray"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+                <RatingBar
+                    android:id="@+id/shopRating"
+                    android:layout_width="123dp"
+                    android:layout_height="21dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="10dp"
+                    android:saveEnabled="true"
+                    android:numStars="5"
+                    />
+                <TextView
+                    android:id="@+id/shopCakeCostTV"
+                    android:layout_width="64dp"
+                    android:layout_height="36dp"
+                    android:textSize="30sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="$20"
+                    android:layout_gravity="bottom"
+                    android:gravity="end"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

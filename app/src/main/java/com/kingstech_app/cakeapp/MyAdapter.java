@@ -57,11 +57,11 @@ public class MyAdapter extends PagerAdapter {
         cakeTitle.setText(title);
         if(cakeNum == 1)
         {
-            cakeLayout.setBackgroundResource(R.drawable.homecakeone);
+            cakeLayout.setBackgroundResource(R.color.colorPrimary);
         }
         else if(cakeNum ==2)
         {
-            cakeLayout.setBackgroundResource(R.drawable.homecaketwo);
+            cakeLayout.setBackgroundResource(R.color.lightWhite);
         }
         //handel card click
 

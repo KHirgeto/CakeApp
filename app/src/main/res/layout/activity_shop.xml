@@ -1,12 +1,137 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/lightPink"
     tools:context=".ShopActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="151dp"
+        android:layout_height="202dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="40dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
 
-</RelativeLayout>
+        <LinearLayout
+            android:layout_width="550dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/springBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:text="@string/Spring"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25sp"
+
+                />
+
+            <Button
+                android:id="@+id/summerBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:background="@color/transparent"
+                android:text="@string/Summer"
+                android:textAllCaps="false"
+                android:textColor="@color/darkGray"
+                android:textSize="25sp"
+
+                />
+
+            <Button
+                android:id="@+id/fallBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:background="@color/transparent"
+                android:text="@string/Fall"
+                android:textAllCaps="false"
+                android:textColor="@color/darkGray"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/holidayBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:background="@color/transparent"
+                android:text="@string/Holiday"
+                android:textAllCaps="false"
+                android:textColor="@color/darkGray"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/shopViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:clipToPadding="false"
+        android:foregroundGravity="bottom"
+        android:overScrollMode="never"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
+
+    <LinearLayout
+        android:id="@+id/homeBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/barcurve"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/shopHomeBTN"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/whitebghome" />
+
+        <Button
+            android:id="@+id/shopShopBTN"
+            android:layout_width="28dp"
+            android:layout_height="27dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="140dp"
+            android:background="@drawable/whiteshopeic" />
+
+        <Button
+            android:id="@+id/shopSettingBTN"
+            android:layout_width="28dp"
+            android:layout_height="27dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="140dp"
+            android:background="@drawable/whitesetting"
+            android:gravity="end" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -35,5 +35,11 @@
     <string name="nullERROR">It is null</string>
     <string name="popularCake">Popular Cakes</string>
 
+    <string name="Spring">Spring</string>
+    <string name="Summer">Summer</string>
+    <string name="Fall">Fall</string>
+    <string name="Holiday">Holiday</string>
+
+
 
 </resources>
