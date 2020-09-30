@@ -15,7 +15,7 @@
 12        android:allowBackup="true"
 12-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.1.0] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/03736cf4bc3669a69d502627b70a527e/core-1.1.0/AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.2.0] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/ccb20ed30836142a5a66c164bb92a0ce/core-1.2.0/AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
 15-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:7:9-43
@@ -28,34 +28,36 @@
 19        android:testOnly="true"
 20        android:theme="@style/AppTheme" >
 20-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:11:9-40
-21        <activity android:name="com.kingstech_app.cakeapp.AccountActivity" />
-21-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:12:9-62
-21-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:12:19-50
-22        <activity android:name="com.kingstech_app.cakeapp.SettingActivity" />
+21        <activity android:name="com.kingstech_app.cakeapp.ShopActivity" />
+21-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:12:9-59
+21-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:12:19-47
+22        <activity android:name="com.kingstech_app.cakeapp.AccountActivity" />
 22-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:13:9-53
 22-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:13:19-50
-23        <activity android:name="com.kingstech_app.cakeapp.CakeOrderList" />
-23-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:14:9-51
-23-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:14:19-48
-24        <activity android:name="com.kingstech_app.cakeapp.SignUpActivity" >
-24-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:15:9-21:20
-24-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:15:19-49
-25            <intent-filter>
-25-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:16:13-20:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:17:17-69
-26-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:17:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:19:17-77
-28-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:19:27-74
-29            </intent-filter>
-30        </activity>
-31        <activity android:name="com.kingstech_app.cakeapp.LogInActivity" >
-31-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:22:9-23:20
-31-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:22:19-48
-32        </activity>
-33        <activity android:name="com.kingstech_app.cakeapp.MainActivity" />
+23        <activity android:name="com.kingstech_app.cakeapp.SettingActivity" />
+23-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:14:9-53
+23-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:14:19-50
+24        <activity android:name="com.kingstech_app.cakeapp.CakeOrderList" />
+24-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:15:9-51
+24-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:15:19-48
+25        <activity android:name="com.kingstech_app.cakeapp.SignUpActivity" >
+25-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:16:9-22:20
+25-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:16:19-49
+26            <intent-filter>
+26-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:17:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:18:17-69
+27-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:18:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:20:17-77
+29-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity android:name="com.kingstech_app.cakeapp.LogInActivity" />
+32-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:23:9-60
+32-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:23:19-48
+33        <activity android:name="com.kingstech_app.cakeapp.HomeActivity" />
 33-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:24:9-50
 33-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:24:19-47
 34

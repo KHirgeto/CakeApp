@@ -23,10 +23,10 @@ public class SettingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setting);
 
-//        home = (Button) findViewById(R.id.homeBTN);
+        home = (Button) findViewById(R.id.homeBTN);
         account = (Button) findViewById(R.id.accountBTN);
-//        shop = (Button) findViewById(R.id.shopBTN);
-//        followUs = (Button) findViewById(R.id.followBTN);
+        shop = (Button) findViewById(R.id.shopBTN);
+        followUs = (Button) findViewById(R.id.followBTN);
         logOut = (Button) findViewById(R.id.settinglogouttBTN);
         back = (Button) findViewById(R.id.back);
         userPic = (ImageView) findViewById(R.id.userPic);
@@ -49,6 +49,13 @@ public class SettingActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(SettingActivity.this,LogInActivity.class);
+                startActivity(intent);
+            }
+        });
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SettingActivity.this,HomeActivity.class);
                 startActivity(intent);
             }
         });

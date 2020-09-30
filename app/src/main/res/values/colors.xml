@@ -10,4 +10,6 @@
     <color name="exDarkGray">#434343</color>
     <color name="lightWhite">#F4EFEE</color>
     <color name="transparent">#00000000</color>
+    <color name="one">#f9c3c9</color>
+    <color name="two">#ebe1df</color>
 </resources>

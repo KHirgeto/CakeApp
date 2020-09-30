@@ -33,8 +33,7 @@
 
     <string name="loginERROR">Can not login, please check your name and password</string>
     <string name="nullERROR">It is null</string>
-
-
+    <string name="popularCake">Popular Cakes</string>
 
 
 </resources>

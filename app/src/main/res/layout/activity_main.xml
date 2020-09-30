@@ -1,19 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back"
-    android:padding="20dp"
-    tools:context=".MainActivity">
+    android:background="@color/two"
+    android:orientation="vertical"
+    android:layout_gravity="bottom"
+    android:id="@+id/mainLayout"
+    tools:context=".ShopActivity">
 
-    <Button
-        android:id="@+id/menuBTN"
-        android:layout_width="33dp"
-        android:layout_height="26dp"
-        android:background="@drawable/menu"
-    />
- 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/homeBarLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-</LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="315dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:letterSpacing="0.1"
+            android:layout_marginTop="3dp"
+            android:text="@string/popularCake"
+            android:textColor="@color/exDarkGray"
+            android:textSize="20sp" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="10dp"
+            android:clipToPadding="false"
+            android:foregroundGravity="bottom"
+            android:overScrollMode="never" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/homeBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/barcurve"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/homeHomeBTN"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/whitebghome" />
+
+        <Button
+            android:id="@+id/homeShopBTN"
+            android:layout_width="28dp"
+            android:layout_height="27dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="140dp"
+            android:background="@drawable/whiteshopeic" />
+
+        <Button
+            android:id="@+id/homeSettingBTN"
+            android:layout_width="28dp"
+            android:layout_height="27dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="140dp"
+            android:background="@drawable/whitesetting"
+            android:gravity="end" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
