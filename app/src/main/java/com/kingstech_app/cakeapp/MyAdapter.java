@@ -69,6 +69,8 @@ public class MyAdapter extends PagerAdapter {
             @Override
             public void onClick(View view) {
                 Toast.makeText(context,title,Toast.LENGTH_SHORT).show();
+                //This is where we will write the code to open a new activity which will have the prview of the cake and where the costumer can order cake.
+                //We will have to save the object with current data(position) to shared perefernces and access it later on the preview page.
             }
         });
 

@@ -57,13 +57,13 @@ public class ShopAdapter extends PagerAdapter{
         if(cakeNum == 1)
         {
             cakeTitle.setTextColor(context.getResources().getColor(R.color.white));
-            cakeTitle.setTextColor(context.getResources().getColor(R.color.exDarkGray));
+            cakeCost.setTextColor(context.getResources().getColor(R.color.darkAc));
             cakeLayout.setBackgroundResource(R.color.colorPrimaryDark);
         }
         else if(cakeNum ==2)
         {
             cakeTitle.setTextColor(context.getResources().getColor(R.color.background));
-            cakeTitle.setTextColor(context.getResources().getColor(R.color.colorPrimaryDark));
+            cakeCost.setTextColor(context.getResources().getColor(R.color.colorPrimaryDark));
             cakeLayout.setBackgroundResource(R.color.colortwo);
         }
         view.setOnClickListener(new View.OnClickListener() {
