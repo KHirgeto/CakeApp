@@ -1420,6 +1420,7 @@ drawable btn_radio_on_to_off_mtrl_animation
 drawable btnbg
 drawable btnbg_no_text
 drawable cake_list_curvebg
+drawable cake_preview_background
 drawable cakelistbg
 drawable cardcurvewhite
 drawable carootcakecur
@@ -1431,6 +1432,7 @@ drawable curvebg
 drawable curvecake
 drawable darkhome
 drawable darksetting
+drawable darkshop
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1520,6 +1522,7 @@ drawable threestar
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable twostar
+drawable upsidedown_t
 drawable upsidedowncake
 drawable useric
 drawable white_curve
@@ -1638,6 +1641,11 @@ id container
 id content
 id contentPanel
 id coordinator
+id cpBackBTN
+id cpCakeCost
+id cpCakeDiscTV
+id cpCakeIV
+id cpCakeNameTV
 id curveCakeIV
 id custom
 id customPanel
@@ -1956,6 +1964,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_account
 layout activity_cake_order_list
+layout activity_cake_preview
 layout activity_log_in
 layout activity_main
 layout activity_setting

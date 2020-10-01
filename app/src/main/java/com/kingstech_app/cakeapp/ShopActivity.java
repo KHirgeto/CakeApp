@@ -97,11 +97,11 @@ public class ShopActivity extends AppCompatActivity {
     private void loadSpring() {
         springCakes = new ArrayList<Cake>();
 
-        springCakes.add(new Cake("UpsideDown Pineapple Cake","",25,R.drawable.upsidedowncake,2));
-        springCakes.add(new Cake("Key Lime Pie","",20,R.drawable.keylimepie,1));
-        springCakes.add(new Cake("Coconut Cake","",30,R.drawable.cocunutcake,2));
-        springCakes.add(new Cake("Strawberry Shortcake","",35,R.drawable.sshortcaketwo,1));
-        springCakes.add(new Cake("5 Flavor Pound Cake","",25,R.drawable.poundcake,2));
+        springCakes.add(new Cake("UpsideDown Pineapple Cake","A basic single layer yellow butter cake inverted after baking to reveal a flavor infused glistening mosaic of caramelized canned pineapples.",25,R.drawable.upsidedowncake,2,R.drawable.upsidedown_t));
+        springCakes.add(new Cake("Key Lime Pie","",20,R.drawable.keylimepie,1,0));
+        springCakes.add(new Cake("Coconut Cake","",30,R.drawable.cocunutcake,2,0));
+        springCakes.add(new Cake("Strawberry Shortcake","",35,R.drawable.sshortcaketwo,1,0));
+        springCakes.add(new Cake("5 Flavor Pound Cake","",25,R.drawable.poundcake,2,0));
 
         mShopAdapter = new ShopAdapter(this,springCakes);
         mViewPager.setAdapter(mShopAdapter);
@@ -116,11 +116,11 @@ public class ShopActivity extends AppCompatActivity {
         fallCakes = new ArrayList<Cake>();
 
 
-        fallCakes.add(new Cake("Carrot Cake","",30,R.drawable.carootcakecur,2));
-        fallCakes.add(new Cake("Double Chocolate Cake","",30,R.drawable.chocletcake,1));
-        fallCakes.add(new Cake("New York Cheesecake","",30,R.drawable.nycakeone,2));
-        fallCakes.add(new Cake("Red Velvet Cake","",30,R.drawable.redvalvetcake,1));
-        fallCakes.add(new Cake("Sweet Potato Cheesecake","",40,R.drawable.sweetpotatocake,2));
+        fallCakes.add(new Cake("Carrot Cake","",30,R.drawable.carootcakecur,2,0));
+        fallCakes.add(new Cake("Double Chocolate Cake","",30,R.drawable.chocletcake,1,0));
+        fallCakes.add(new Cake("New York Cheesecake","",30,R.drawable.nycakeone,2,0));
+        fallCakes.add(new Cake("Red Velvet Cake","",30,R.drawable.redvalvetcake,1,0));
+        fallCakes.add(new Cake("Sweet Potato Cheesecake","",40,R.drawable.sweetpotatocake,2,0));
 //        fallCakes.add(new Cake("Banana Cake","",15,R.drawable.bananacake,1));
 //        fallCakes.add(new Cake("Red Velvet Cheesecake","",40,R.drawable.redvelvetcheescake,2));
 //        fallCakes.add(new Cake("Bacardi Rum Cake","",30,R.drawable.bascardirumcake,1));
@@ -137,9 +137,9 @@ public class ShopActivity extends AppCompatActivity {
     }
     private void loadSummer() {
         summerCakes = new ArrayList<Cake>();
-        summerCakes.add(new Cake("Banana Cake","",15,R.drawable.bananacake,1));
-        summerCakes.add(new Cake("Red Velvet Cheesecake","",40,R.drawable.redvelvetcheescake,2));
-        summerCakes.add(new Cake("Bacardi Rum Cake","",30,R.drawable.bascardirumcake,1));
+        summerCakes.add(new Cake("Banana Cake","",15,R.drawable.bananacake,1,0));
+        summerCakes.add(new Cake("Red Velvet Cheesecake","",40,R.drawable.redvelvetcheescake,2,0));
+        summerCakes.add(new Cake("Bacardi Rum Cake","",30,R.drawable.bascardirumcake,1,0));
 
 
         mShopAdapter = new ShopAdapter(this,summerCakes);

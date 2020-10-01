@@ -1,6 +1,7 @@
 package com.kingstech_app.cakeapp;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -36,7 +37,7 @@ public class ShopAdapter extends PagerAdapter{
 
     @NonNull
     @Override
-    public Object instantiateItem(@NonNull ViewGroup container, int position) {
+    public Object instantiateItem(@NonNull ViewGroup container, final int position) {
         View view = LayoutInflater.from(context).inflate(R.layout.main_cake,container,false);
 
         ImageView cakeImage = view.findViewById(R.id.shopCakeIV);
@@ -45,7 +46,7 @@ public class ShopAdapter extends PagerAdapter{
         TextView cakeCost = view.findViewById(R.id.shopCakeCostTV);
         LinearLayout cakeLayout = view.findViewById(R.id.shopCakeLLayout);
 
-        Cake sCake = cakes.get(position);
+        final Cake sCake = cakes.get(position);
         final String cakeName = sCake.getName();
         final String cost = "$"+sCake.getCost()+"";
         int image = sCake.getImage();
@@ -68,8 +69,17 @@ public class ShopAdapter extends PagerAdapter{
         }
         view.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
                 Toast.makeText(context,cakeName,Toast.LENGTH_SHORT).show();
+                TinyDB tinydbCake = new TinyDB(context);
+                tinydbCake.putString("cakeName",sCake.getName());
+                tinydbCake.putString("cakeDisc",sCake.getDiscription());
+                tinydbCake.putString("cakeCost",sCake.getCost()+"");
+                tinydbCake.putInt("cakeImage",sCake.getCakeTransImage());
+                Intent intent = new Intent(context,CakePreview.class);
+                v.getContext().startActivity(intent);
+                //This is where we will write the code to open a new activity which will have the prview of the cake and where the costumer can order cake.
+                //We will have to save the object with current data(position) to shared perefernces and access it later on the preview page.
             }
         });
 

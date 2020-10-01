@@ -11,7 +11,7 @@
 9-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:5:5-25:19
+11-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:5:5-26:19
 12        android:allowBackup="true"
 12-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -28,47 +28,50 @@
 19        android:testOnly="true"
 20        android:theme="@style/AppTheme" >
 20-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:11:9-40
-21        <activity android:name="com.kingstech_app.cakeapp.ShopActivity" />
-21-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:12:9-59
-21-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:12:19-47
-22        <activity android:name="com.kingstech_app.cakeapp.AccountActivity" />
-22-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:13:9-53
-22-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:13:19-50
-23        <activity android:name="com.kingstech_app.cakeapp.SettingActivity" />
+21        <activity android:name="com.kingstech_app.cakeapp.CakePreview" />
+21-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:12:9-58
+21-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:12:19-46
+22        <activity android:name="com.kingstech_app.cakeapp.ShopActivity" />
+22-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:13:9-50
+22-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:13:19-47
+23        <activity android:name="com.kingstech_app.cakeapp.AccountActivity" />
 23-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:14:9-53
 23-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:14:19-50
-24        <activity android:name="com.kingstech_app.cakeapp.CakeOrderList" />
-24-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:15:9-51
-24-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:15:19-48
-25        <activity android:name="com.kingstech_app.cakeapp.SignUpActivity" >
-25-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:16:9-22:20
-25-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:16:19-49
-26            <intent-filter>
-26-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:17:13-21:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:18:17-69
-27-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:18:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:20:17-77
-29-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:20:27-74
-30            </intent-filter>
-31        </activity>
-32        <activity android:name="com.kingstech_app.cakeapp.LogInActivity" />
-32-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:23:9-60
-32-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:23:19-48
-33        <activity android:name="com.kingstech_app.cakeapp.HomeActivity" />
-33-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:24:9-50
-33-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:24:19-47
-34
-35        <provider
-35-->[com.squareup.picasso:picasso:2.71828] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/ab0c57d0e739102e999d329edc647b4c/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
-36            android:name="com.squareup.picasso.PicassoProvider"
-36-->[com.squareup.picasso:picasso:2.71828] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/ab0c57d0e739102e999d329edc647b4c/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
-37            android:authorities="com.kingstech_app.cakeapp.com.squareup.picasso"
-37-->[com.squareup.picasso:picasso:2.71828] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/ab0c57d0e739102e999d329edc647b4c/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
-38            android:exported="false" />
-38-->[com.squareup.picasso:picasso:2.71828] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/ab0c57d0e739102e999d329edc647b4c/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
-39    </application>
-40
-41</manifest>
+24        <activity android:name="com.kingstech_app.cakeapp.SettingActivity" />
+24-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:15:9-53
+24-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:15:19-50
+25        <activity android:name="com.kingstech_app.cakeapp.CakeOrderList" />
+25-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:16:9-51
+25-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:16:19-48
+26        <activity android:name="com.kingstech_app.cakeapp.SignUpActivity" >
+26-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:17:9-23:20
+26-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:17:19-49
+27            <intent-filter>
+27-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:18:13-22:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:19:17-69
+28-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:21:17-77
+30-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:21:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity android:name="com.kingstech_app.cakeapp.LogInActivity" />
+33-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:24:9-51
+33-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:24:19-48
+34        <activity android:name="com.kingstech_app.cakeapp.HomeActivity" />
+34-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:25:9-50
+34-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:25:19-47
+35
+36        <provider
+36-->[com.squareup.picasso:picasso:2.71828] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/ab0c57d0e739102e999d329edc647b4c/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+37            android:name="com.squareup.picasso.PicassoProvider"
+37-->[com.squareup.picasso:picasso:2.71828] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/ab0c57d0e739102e999d329edc647b4c/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+38            android:authorities="com.kingstech_app.cakeapp.com.squareup.picasso"
+38-->[com.squareup.picasso:picasso:2.71828] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/ab0c57d0e739102e999d329edc647b4c/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+39            android:exported="false" />
+39-->[com.squareup.picasso:picasso:2.71828] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/ab0c57d0e739102e999d329edc647b4c/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+40    </application>
+41
+42</manifest>

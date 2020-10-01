@@ -51,6 +51,20 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        shopBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomeActivity.this,ShopActivity.class);
+                startActivity(intent);
+            }
+        });
+        settingBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomeActivity.this,SettingActivity.class);
+                startActivity(intent);
+            }
+        });
         mViewPager = findViewById(R.id.viewPager);
         loadCards();
 
@@ -65,11 +79,6 @@ public class HomeActivity extends AppCompatActivity {
                 if(mPopularCakes.get(position).getCakeNum() == 1)
                 {
                     mConstraintLayout.setBackgroundResource(R.color.one);
-//                    homeBTN.setBackgroundResource(R.drawable.whitehome);
-//                    shopBTN.setBackgroundResource(R.drawable.whiteshop);
-//                    settingBTN.setBackgroundResource(R.drawable.whitesetting);
-//                    barLayout.setBackgroundResource(R.drawable.barcurve);
-
                 }
 
                 else if(mPopularCakes.get(position).getCakeNum()==2)
@@ -77,7 +86,6 @@ public class HomeActivity extends AppCompatActivity {
                     mConstraintLayout.setBackgroundResource(R.color.two);
                     barLayout.setBackgroundResource(R.drawable.barcurve);
                 }
-//                mActionBar.setTitle(tile);
             }
 
             @Override

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".CakePreview">
+
+        <Button
+            android:id="@+id/cpBackBTN"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/whiteleftarrow"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="16dp" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            >
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+
+                    <TextView
+                        android:id="@+id/cpCakeNameTV"
+                        android:layout_width="200dp"
+                        android:layout_height="76dp"
+                        android:text="Cake Title"
+                        android:textAlignment="textStart"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginEnd="40dp"
+                        tools:layout_editor_absoluteX="40dp"
+                        tools:layout_editor_absoluteY="90dp" />
+
+                    <TextView
+                        android:id="@+id/cpCakeDiscTV"
+                        android:layout_width="353dp"
+                        android:layout_height="108dp"
+                        android:text="This is the cake description"
+                        android:textAlignment="textStart"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="19sp"
+                        android:textStyle="normal"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginEnd="40dp"
+                        tools:layout_editor_absoluteX="40dp"
+                        tools:layout_editor_absoluteY="183dp" />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_marginTop="350dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="500dp"
+                        android:background="@drawable/cake_preview_background"
+                        android:orientation="vertical"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="287dp">
+                        <TextView
+                            android:id="@+id/cpCakeCost"
+                            android:layout_width="107dp"
+                            android:layout_height="60dp"
+                            android:layout_marginTop="200dp"
+                            android:layout_marginStart="40dp"
+                            android:text="$20"
+                            android:textAllCaps="false"
+                            android:textAlignment="textStart"
+                            android:textSize="50dp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+                    <ImageView
+                        android:id="@+id/cpCakeIV"
+                        android:layout_width="258dp"
+                        android:layout_height="228dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="40dp"
+                        android:src="@drawable/strawcake" />
+
+            </FrameLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

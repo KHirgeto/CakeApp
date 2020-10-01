@@ -67,7 +67,7 @@
             android:layout_height="47dp"
             android:layout_gravity="bottom"
             android:layout_marginStart="10dp"
-            android:background="@drawable/whitebghome" />
+            android:background="@drawable/pinkhome" />
 
         <Button
             android:id="@+id/homeShopBTN"
@@ -75,7 +75,7 @@
             android:layout_height="27dp"
             android:layout_gravity="bottom"
             android:layout_marginStart="140dp"
-            android:background="@drawable/whiteshopeic" />
+            android:background="@drawable/darkshop" />
 
         <Button
             android:id="@+id/homeSettingBTN"
@@ -83,7 +83,7 @@
             android:layout_height="27dp"
             android:layout_gravity="bottom"
             android:layout_marginStart="140dp"
-            android:background="@drawable/whitesetting"
+            android:background="@drawable/darksetting"
             android:gravity="end" />
     </LinearLayout>
 
