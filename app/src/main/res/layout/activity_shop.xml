@@ -5,13 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/lightPink"
+    android:background="@color/background"
     tools:context=".ShopActivity">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="151dp"
-        android:layout_height="202dp"
+        android:layout_width="122dp"
+        android:layout_height="163dp"
         android:src="@drawable/logo"
         app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,7 +22,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
-        android:layout_marginStart="40dp"
+        android:paddingStart="40dp"
+        android:paddingEnd="20dp"
         android:paddingTop="20dp"
         android:paddingBottom="20dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,10 +32,9 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView">
 
         <LinearLayout
-            android:layout_width="550dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-
             <Button
                 android:id="@+id/springBTN"
                 android:layout_width="wrap_content"
@@ -55,7 +55,7 @@
                 android:background="@color/transparent"
                 android:text="@string/Summer"
                 android:textAllCaps="false"
-                android:textColor="@color/darkGray"
+                android:textColor="@color/white"
                 android:textSize="25sp"
 
                 />
@@ -68,18 +68,18 @@
                 android:background="@color/transparent"
                 android:text="@string/Fall"
                 android:textAllCaps="false"
-                android:textColor="@color/darkGray"
+                android:textColor="@color/white"
                 android:textSize="25sp" />
 
             <Button
                 android:id="@+id/holidayBTN"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="18dp"
                 android:background="@color/transparent"
                 android:text="@string/Holiday"
                 android:textAllCaps="false"
-                android:textColor="@color/darkGray"
+                android:textColor="@color/white"
                 android:textSize="25sp" />
         </LinearLayout>
 
@@ -88,7 +88,7 @@
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/shopViewPager"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="342dp"
         android:clipToPadding="false"
         android:foregroundGravity="bottom"
         android:overScrollMode="never"
@@ -110,19 +110,19 @@
 
         <Button
             android:id="@+id/shopHomeBTN"
-            android:layout_width="47dp"
-            android:layout_height="47dp"
-            android:layout_gravity="bottom"
-            android:layout_marginStart="10dp"
-            android:background="@drawable/whitebghome" />
-
-        <Button
-            android:id="@+id/shopShopBTN"
             android:layout_width="28dp"
             android:layout_height="27dp"
             android:layout_gravity="bottom"
-            android:layout_marginStart="140dp"
-            android:background="@drawable/whiteshopeic" />
+            android:layout_marginStart="15dp"
+            android:background="@drawable/darkhome" />
+
+        <Button
+            android:id="@+id/shopShopBTN"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="135dp"
+            android:background="@drawable/pinkshop" />
 
         <Button
             android:id="@+id/shopSettingBTN"
@@ -130,7 +130,7 @@
             android:layout_height="27dp"
             android:layout_gravity="bottom"
             android:layout_marginStart="140dp"
-            android:background="@drawable/whitesetting"
+            android:background="@drawable/darksetting"
             android:gravity="end" />
     </LinearLayout>
 

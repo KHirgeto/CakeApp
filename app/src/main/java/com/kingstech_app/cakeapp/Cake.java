@@ -5,12 +5,14 @@ public class Cake {
     String discription;
     double cost;
     int image;
+    int cakeNum;
 
-    public Cake(String name, String discription, double cost, int image) {
+    public Cake(String name, String discription, double cost, int image, int cakeNum) {
         this.name = name;
         this.discription = discription;
         this.cost = cost;
         this.image = image;
+        this.cakeNum = cakeNum;
     }
 
     public String getName() {
@@ -43,5 +45,13 @@ public class Cake {
 
     public void setImage(int image) {
         this.image = image;
+    }
+
+    public int getCakeNum() {
+        return cakeNum;
+    }
+
+    public void setCakeNum(int cakeNum) {
+        this.cakeNum = cakeNum;
     }
 }

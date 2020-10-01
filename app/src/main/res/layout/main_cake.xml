@@ -13,59 +13,61 @@
         android:layout_height="wrap_content"
         android:layout_margin="0dp"
         android:outlineSpotShadowColor="@color/exDarkGray"
-        app:cardCornerRadius="30dp">
+        app:cardCornerRadius="23dp">
 
         <LinearLayout
-            android:id="@+id/cakeBTN"
-            android:layout_width="228dp"
-            android:layout_height="342dp"
-            android:background="@color/colorPrimary"
+            android:id="@+id/shopCakeLLayout"
+            android:layout_width="259dp"
+            android:layout_height="362dp"
+            android:background="@color/colorPrimaryDark"
             android:orientation="vertical">
-            <Button
+            <ImageView
                 android:id="@+id/shopCakeIV"
-                android:layout_width="150dp"
-                android:layout_height="135.49dp"
-                android:scaleType="centerCrop"
+                android:layout_width="259dp"
+                android:layout_height="219dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="89dp"
-                android:background="@drawable/strawcake"/>
+                android:layout_marginTop="0dp"
+                android:src="@drawable/nycaketwo"/>
             <TextView
-                android:id="@+id/shopCakeTitle"
-                android:layout_width="180dp"
+                android:id="@+id/shopCakeTitleBTN"
+                android:layout_width="210dp"
                 android:layout_height="58dp"
                 android:text="Strawberry Shortcake"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:textSize="20sp"
-                android:textColor="@color/exDarkGray"
+                android:textColor="@color/white"
                 android:textAllCaps="false"
                 android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:background="@color/transparent"
                 android:textAlignment="center"/>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:orientation="horizontal"
                 android:layout_gravity="center"
                 android:gravity="center"
                 >
                 <RatingBar
                     android:id="@+id/shopRating"
-                    android:layout_width="123dp"
-                    android:layout_height="21dp"
-                    android:layout_marginTop="15dp"
-                    android:layout_marginStart="10dp"
-                    android:saveEnabled="true"
-                    android:numStars="5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleX="0.5"
+                    android:scaleY="0.5"
+
+
                     />
                 <TextView
                     android:id="@+id/shopCakeCostTV"
                     android:layout_width="64dp"
                     android:layout_height="36dp"
                     android:textSize="30sp"
-                    android:textColor="@color/colorPrimaryDark"
+                    android:textColor="@color/background"
                     android:text="$20"
-                    android:layout_gravity="bottom"
-                    android:gravity="end"
+                    android:layout_marginEnd="50dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
                     android:textStyle="bold"
                     />
 

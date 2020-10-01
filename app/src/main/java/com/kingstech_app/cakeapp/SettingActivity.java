@@ -59,6 +59,13 @@ public class SettingActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        shop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SettingActivity.this,ShopActivity.class);
+                startActivity(intent);
+            }
+        });
     }
     public void imageSetter()
     {

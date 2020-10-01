@@ -39,6 +39,39 @@
     <string name="Summer">Summer</string>
     <string name="Fall">Fall</string>
     <string name="Holiday">Holiday</string>
+<!--Sprng summer cake-->
+    <string name="upsidedown">UpsideDown Pineapple Cake</string>
+    <string name="upsidedowndis">A basic single layer yellow butter cake inverted after baking to reveal a flavor infused glistening mosaic of caramelized canned pineapples.</string>
+    <string name="KeyLimePie">Key Lime Pie</string>
+    <string name="KeyLimePiedis">Key Lime Pie</string>
+    <string name="CoconutCake">Coconut Cake</string>
+    <string name="CoconutCakedis">Coconut Cake</string>
+    <string name="falvorpund">5 Flavor Pound Cake</string>
+    <string name="falvorpunddis">5 Flavor Pound Cake</string>
+    <string name="strawberrysortcake">Strawberry Shortcake</string>
+    <string name="strawberrysortcakedis">Strawberry Shortcake</string>
+
+<!--Fall Holiday cake-->
+    <string name="carootckae">Carrot Cake</string>
+    <string name="carootckaedis">Carrot Cake</string>
+    <string name="chocletcake">Double Chocolate Cake</string>
+    <string name="chocletcakedis">Double Chocolate Cake</string>
+    <string name="redvelvet">Red Velvet Cake</string>
+    <string name="redvelvetdis">Red Velvet Cake</string>
+    <string name="nyccheescake">New York Cheesecake</string>
+    <string name="nyccheescakedis">New York Cheesecake</string>
+    <string name="sweetpotatocake">Sweet Potato Cheesecake</string>
+    <string name="sweetpotatocakedis">Sweet Potato Cheesecake</string>
+    <string name="redvelvetcheescake">Red Velvet Cheesecake</string>
+    <string name="redvelvetcheescakedis">Red Velvet Cheesecake</string>
+    <string name="bananacake">Banana Cake</string>
+    <string name="bananacakedis">Banana Cake</string>
+    <string name="Bacardirumcake">Bacardi Rum Cake</string>
+    <string name="Bacardirumcakedis">Bacardi Rum Cake</string>
+
+
+
+
 
 
 

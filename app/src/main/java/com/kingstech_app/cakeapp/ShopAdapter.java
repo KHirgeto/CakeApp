@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.RatingBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -39,19 +40,32 @@ public class ShopAdapter extends PagerAdapter{
         View view = LayoutInflater.from(context).inflate(R.layout.main_cake,container,false);
 
         ImageView cakeImage = view.findViewById(R.id.shopCakeIV);
-        final TextView cakeTitle = view.findViewById(R.id.shopCakeTitle);
+        final TextView cakeTitle = view.findViewById(R.id.shopCakeTitleBTN);
       //  RatingBar cakeRate = view.findViewById(R.id.shopRating);
         TextView cakeCost = view.findViewById(R.id.shopCakeCostTV);
+        LinearLayout cakeLayout = view.findViewById(R.id.shopCakeLLayout);
 
         Cake sCake = cakes.get(position);
         final String cakeName = sCake.getName();
-        final String cost = sCake.getCost()+"";
+        final String cost = "$"+sCake.getCost()+"";
         int image = sCake.getImage();
+        int cakeNum = sCake.getCakeNum();
 
         cakeImage.setImageResource(image);
         cakeTitle.setText(cakeName);
         cakeCost.setText(cost);
-
+        if(cakeNum == 1)
+        {
+            cakeTitle.setTextColor(context.getResources().getColor(R.color.white));
+            cakeTitle.setTextColor(context.getResources().getColor(R.color.exDarkGray));
+            cakeLayout.setBackgroundResource(R.color.colorPrimaryDark);
+        }
+        else if(cakeNum ==2)
+        {
+            cakeTitle.setTextColor(context.getResources().getColor(R.color.background));
+            cakeTitle.setTextColor(context.getResources().getColor(R.color.colorPrimaryDark));
+            cakeLayout.setBackgroundResource(R.color.colortwo);
+        }
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -62,5 +76,9 @@ public class ShopAdapter extends PagerAdapter{
         container.addView(view,position);
         return view;
 
+    }
+    @Override
+    public void destroyItem(@NonNull ViewGroup container, int position, @NonNull Object object) {
+        container.removeView((View)object);
     }
 }

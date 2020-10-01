@@ -9,7 +9,7 @@
         android:topRightRadius="23dp"
         />
     <solid
-        android:color="@color/colorPrimaryDark"
+        android:color="@color/white"
         />
 
 
