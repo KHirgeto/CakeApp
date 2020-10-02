@@ -1408,7 +1408,10 @@ drawable back
 drawable bananacake
 drawable barcurve
 drawable bascardirumcake
+drawable bntbone
+drawable bntptwo
 drawable bottombar
+drawable brtp
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1426,6 +1429,7 @@ drawable cardcurvewhite
 drawable carootcakecur
 drawable carrocake
 drawable carrotcurve
+drawable cctp
 drawable chocletcake
 drawable cocunutcake
 drawable curvebg
@@ -1433,6 +1437,7 @@ drawable curvecake
 drawable darkhome
 drawable darksetting
 drawable darkshop
+drawable dctp
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1445,6 +1450,7 @@ drawable facebookic
 drawable fivestar
 drawable foodlistbg
 drawable fourstar
+drawable fvtp
 drawable homebg
 drawable homecakeone
 drawable homecaketwo
@@ -1494,17 +1500,22 @@ drawable notify_panel_notification_icon_bg
 drawable nycake
 drawable nycakeone
 drawable nycaketwo
+drawable nytp
 drawable onestar
 drawable openic
+drawable orderbtn
 drawable password
 drawable phone
 drawable pinkhome
 drawable pinksetting
 drawable pinkshop
 drawable poundcake
+drawable qty
 drawable redcake
 drawable redvalvetcake
 drawable redvelvetcheescake
+drawable rvctp
+drawable rvtp
 drawable setingcurve
 drawable shopcakebgone
 drawable shopcakebgtwo
@@ -1512,7 +1523,10 @@ drawable shopic
 drawable shortcake
 drawable signbg1
 drawable signbg2
+drawable spinback
+drawable sptp
 drawable sshortcaketwo
+drawable sstp
 drawable strawberrycake
 drawable strawcake
 drawable submit
@@ -2049,6 +2063,7 @@ string Address
 string AlreadyhaveanaccountLoginhere
 string Bacardirumcake
 string Bacardirumcakedis
+string ChooseSuze
 string CoconutCake
 string CoconutCakedis
 string Createyouraccount
@@ -2064,6 +2079,7 @@ string Logintoyouaccount
 string Logout
 string Name
 string NewhereCreateanaccount
+string Order
 string Password
 string Phone
 string Shop
@@ -2174,6 +2190,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string popularCake
+string qty
 string redvelvet
 string redvelvetcheescake
 string redvelvetcheescakedis
@@ -2181,6 +2198,7 @@ string redvelvetdis
 string search_menu_title
 string setting
 string signup
+string size
 string status_bar_notification_info_overflow
 string strawberrysortcake
 string strawberrysortcakedis

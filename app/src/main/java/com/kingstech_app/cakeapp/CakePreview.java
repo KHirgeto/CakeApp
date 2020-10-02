@@ -1,11 +1,16 @@
 package com.kingstech_app.cakeapp;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.ViewPager;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Adapter;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -25,6 +30,8 @@ public class CakePreview extends AppCompatActivity {
         cakeDisc = (TextView) findViewById(R.id.cpCakeDiscTV);
         cakeCost = (TextView) findViewById(R.id.cpCakeCost);
         cakeIV = (ImageView) findViewById(R.id.cpCakeIV);
+        String spCh = "&quot";
+        String[] sizes = new String[]{"9"+spCh+"x13"+spCh,"13"+spCh+"x18"+spCh,"18"+spCh+"x26"+spCh,};
 
         TinyDB tinyDB = new TinyDB(this);
         cakeCostString = "$"+tinyDB.getString("cakeCost");
