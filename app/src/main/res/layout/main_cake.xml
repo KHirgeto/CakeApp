@@ -29,7 +29,7 @@
                 android:layout_marginTop="0dp"
                 android:src="@drawable/nycaketwo"/>
             <TextView
-                android:id="@+id/shopCakeTitleBTN"
+                android:id="@+id/shopCakeTitle"
                 android:layout_width="210dp"
                 android:layout_height="58dp"
                 android:text="Strawberry Shortcake"
@@ -49,15 +49,20 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 >
-                <RatingBar
-                    android:id="@+id/shopRating"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:scaleX="0.5"
-                    android:scaleY="0.5"
+<!--                <RatingBar-->
+<!--                    android:id="@+id/shopRating"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:scaleX="0.5"-->
+<!--                    android:scaleY="0.5"-->
+<!--                    />-->
+                <ImageView
+                    android:id="@+id/blackRateIV"
+                    android:layout_width="123dp"
+                    android:layout_height="21dp"
+                    android:src="@drawable/bfourstar"
+                    android:layout_marginStart="58dp"/>
 
-
-                    />
                 <TextView
                     android:id="@+id/shopCakeCostTV"
                     android:layout_width="64dp"
@@ -68,6 +73,7 @@
                     android:layout_marginEnd="50dp"
                     android:layout_gravity="center"
                     android:gravity="center"
+                    android:layout_marginStart="20dp"
                     android:textStyle="bold"
                     />
 

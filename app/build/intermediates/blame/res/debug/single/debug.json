@@ -8,6 +8,10 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/strawcake.png"
     },
     {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_bttwostar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/bttwostar.png"
+    },
+    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_darkhome.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/darkhome.png"
     },
@@ -28,12 +32,12 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/whiteleftarrow.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_bascardirumcake.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/bascardirumcake.png"
-    },
-    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_signbg2.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/signbg2.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_bascardirumcake.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/bascardirumcake.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_nytp.png.flat",
@@ -44,12 +48,16 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/chocletcake.png"
     },
     {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_shopcakebgtwo.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/shopcakebgtwo.png"
+    },
+    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_logoutic.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/logoutic.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_shopcakebgtwo.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/shopcakebgtwo.png"
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_mupside.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/mupside.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/layout_main_cake.xml.flat",
@@ -72,12 +80,12 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/whitesetting.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_cakelistbg.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/cakelistbg.png"
-    },
-    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_pinkhome.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/pinkhome.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_cakelistbg.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/cakelistbg.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_whitesetting.png.flat",
@@ -112,12 +120,20 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/btnbg_no_text.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_whiteshopeic.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/whiteshopeic.png"
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_mupside.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/mupside.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_btnbg.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/btnbg.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_whiteshopeic.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/whiteshopeic.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_bfourstar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/bfourstar.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_pinkhome.png.flat",
@@ -132,16 +148,16 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/whiteleftarrow.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_homecakeone.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/homecakeone.png"
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_cocunutcake.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/cocunutcake.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_strawcake.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/strawcake.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_cocunutcake.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/cocunutcake.png"
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_homecakeone.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/homecakeone.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_fourstar.png.flat",
@@ -156,12 +172,12 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/homeic.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_carrocake.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/carrocake.png"
-    },
-    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_shopcakebgtwo.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/shopcakebgtwo.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_carrocake.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/carrocake.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_homecakeone.png.flat",
@@ -224,12 +240,12 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/signbg2.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_darkhome.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/darkhome.png"
-    },
-    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable_cake_list_curvebg.xml.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable/cake_list_curvebg.xml"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_darkhome.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/darkhome.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/layout_activity_sign_up.xml.flat",
@@ -246,6 +262,10 @@
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_sptp.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/sptp.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_bfourstar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/bfourstar.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_bntptwo.png.flat",
@@ -288,12 +308,12 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/facebookic.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_foodlistbg.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/foodlistbg.png"
-    },
-    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_bntptwo.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/bntptwo.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_foodlistbg.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/foodlistbg.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_twostar.png.flat",
@@ -316,16 +336,16 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/onestar.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_pinkhome.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/pinkhome.png"
-    },
-    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_cocunutcake.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/cocunutcake.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_bntptwo.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/bntptwo.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_pinkhome.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/pinkhome.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_whitehome.png.flat",
@@ -344,12 +364,12 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/layout/activity_account.xml"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_pinkhome.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/pinkhome.png"
-    },
-    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_bottombar.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/bottombar.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_pinkhome.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/pinkhome.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_qty.png.flat",
@@ -380,12 +400,12 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/twostar.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_darkhome.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/darkhome.png"
-    },
-    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_strawberrycake.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/strawberrycake.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_darkhome.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/darkhome.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_face.png.flat",
@@ -452,16 +472,20 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/bascardirumcake.png"
     },
     {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_bthreestar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/bthreestar.png"
+    },
+    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_submit.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/submit.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_twostar.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/twostar.png"
-    },
-    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_darkshop.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/darkshop.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_twostar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/twostar.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_logoutic.png.flat",
@@ -494,6 +518,10 @@
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_threestar.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/threestar.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_mupside.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/mupside.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_brtp.png.flat",
@@ -568,12 +596,12 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/darksetting.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_password.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/password.png"
-    },
-    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_cctp.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/cctp.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_password.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/password.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_redcake.png.flat",
@@ -592,12 +620,12 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/rvtp.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_signbg2.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/signbg2.png"
-    },
-    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_facebookic.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/facebookic.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_signbg2.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/signbg2.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_openic.png.flat",
@@ -656,12 +684,12 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/useric.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_loginbgtwo.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/loginbgtwo.png"
-    },
-    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_rvtp.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/rvtp.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_loginbgtwo.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/loginbgtwo.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_face.png.flat",
@@ -720,16 +748,16 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/setingcurve.png"
     },
     {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_cctp.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/cctp.png"
+    },
+    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_carootcakecur.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/carootcakecur.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_back.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/back.png"
-    },
-    {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_cctp.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/cctp.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_sshortcaketwo.png.flat",
@@ -756,12 +784,16 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/pinksetting.png"
     },
     {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_sstp.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/sstp.png"
+    },
+    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_redvelvetcheescake.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/redvelvetcheescake.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_sstp.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/sstp.png"
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_bfivestar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/bfivestar.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_sptp.png.flat",
@@ -772,12 +804,12 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/menu.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_sweetpotatocake.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/sweetpotatocake.png"
-    },
-    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_orderbtn.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/orderbtn.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_sweetpotatocake.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/sweetpotatocake.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_keylimecake.png.flat",
@@ -816,12 +848,12 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/nycakeone.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_redvelvetcheescake.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/redvelvetcheescake.png"
-    },
-    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_nytp.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/nytp.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_redvelvetcheescake.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/redvelvetcheescake.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_signbg2.png.flat",
@@ -892,6 +924,10 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/layout/activity_cake_preview.xml"
     },
     {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_bfourstar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/bfourstar.png"
+    },
+    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_menu.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/menu.png"
     },
@@ -952,12 +988,12 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/homecaketwo.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_keylimecake.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/keylimecake.png"
-    },
-    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_sstp.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/sstp.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_keylimecake.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/keylimecake.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_upsidedowncake.png.flat",
@@ -996,6 +1032,10 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/homebg.png"
     },
     {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_mupside.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/mupside.png"
+    },
+    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_foodlistbg.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/foodlistbg.png"
     },
@@ -1006,6 +1046,10 @@
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_btnbg_no_text.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/btnbg_no_text.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_bttwostar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/bttwostar.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_submit.png.flat",
@@ -1026,6 +1070,10 @@
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_bascardirumcake.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/bascardirumcake.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_bfourstar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/bfourstar.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable_cake_preview_background.xml.flat",
@@ -1192,6 +1240,10 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/bntbone.png"
     },
     {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_bthreestar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/bthreestar.png"
+    },
+    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_qty.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/qty.png"
     },
@@ -1220,6 +1272,10 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/whitesetting.png"
     },
     {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_bfourstar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/bfourstar.png"
+    },
+    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_whitehome.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/whitehome.png"
     },
@@ -1244,8 +1300,16 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/fourstar.png"
     },
     {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_bonestar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/bonestar.png"
+    },
+    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_btnbg_no_text.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/btnbg_no_text.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_bttwostar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/bttwostar.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_bntbone.png.flat",
@@ -1332,6 +1396,10 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/fvtp.png"
     },
     {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_bfourstar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/bfourstar.png"
+    },
+    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_back.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/back.png"
     },
@@ -1352,6 +1420,10 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/redcake.png"
     },
     {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_bonestar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/bonestar.png"
+    },
+    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_nycake.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/nycake.png"
     },
@@ -1360,12 +1432,12 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/logouticon.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_darkshop.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/darkshop.png"
-    },
-    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_bntbone.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/bntbone.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_darkshop.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/darkshop.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_useric.png.flat",
@@ -1374,6 +1446,10 @@
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_signbg1.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/signbg1.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_bfivestar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/bfivestar.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_poundcake.png.flat",
@@ -1476,12 +1552,12 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/cocunutcake.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_whitesetting.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/whitesetting.png"
-    },
-    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_bntbone.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/bntbone.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_whitesetting.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/whitesetting.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_fivestar.png.flat",
@@ -1500,12 +1576,16 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/nytp.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_email.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/email.png"
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_bthreestar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/bthreestar.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_darkshop.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/darkshop.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_email.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/email.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_orderbtn.png.flat",
@@ -1564,6 +1644,10 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/whitesetting.png"
     },
     {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_bonestar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/bonestar.png"
+    },
+    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_nycaketwo.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/nycaketwo.png"
     },
@@ -1604,6 +1688,14 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/loginbgtwo.png"
     },
     {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_bonestar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/bonestar.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_fvtp.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/fvtp.png"
+    },
+    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_nycake.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/nycake.png"
     },
@@ -1616,12 +1708,12 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/whitebgsetting.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_fvtp.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/fvtp.png"
-    },
-    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_sweetpotatocake.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/sweetpotatocake.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_bonestar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/bonestar.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_whitebghome.png.flat",
@@ -1664,16 +1756,20 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/darksetting.png"
     },
     {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_bthreestar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/bthreestar.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_sptp.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/sptp.png"
+    },
+    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/layout_activity_shop.xml.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/layout/activity_shop.xml"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_darkshop.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/darkshop.png"
-    },
-    {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_sptp.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/sptp.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_sweetpotatocake.png.flat",
@@ -1776,12 +1872,12 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/btnbg.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_logo.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/logo.png"
-    },
-    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_cctp.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/cctp.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_logo.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/logo.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_facebookic.png.flat",
@@ -1796,12 +1892,16 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_redvelvetcheescake.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/redvelvetcheescake.png"
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_bthreestar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/bthreestar.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_upsidedown_t.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/upsidedown_t.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_redvelvetcheescake.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/redvelvetcheescake.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_sstp.png.flat",
@@ -1824,6 +1924,10 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/twostar.png"
     },
     {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_bfivestar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/bfivestar.png"
+    },
+    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_poundcake.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/poundcake.png"
     },
@@ -1832,12 +1936,20 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/threestar.png"
     },
     {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_bthreestar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/bthreestar.png"
+    },
+    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_orderbtn.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/orderbtn.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_bottombar.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/bottombar.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_bttwostar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/bttwostar.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_rvctp.png.flat",
@@ -1874,6 +1986,14 @@
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_curvecake.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-hdpi/curvecake.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-mdpi_bonestar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/bonestar.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_bfivestar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/bfivestar.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_logo.png.flat",
@@ -2000,8 +2120,16 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/phone.png"
     },
     {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_bttwostar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/bttwostar.png"
+    },
+    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_cakelistbg.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxxhdpi/cakelistbg.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_mupside.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/mupside.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-hdpi_shortcake.png.flat",
@@ -2024,8 +2152,16 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/loginbg1.png"
     },
     {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_bttwostar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/bttwostar.png"
+    },
+    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_redcake.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/redcake.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_mupside.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/mupside.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_carrocake.png.flat",
@@ -2044,12 +2180,16 @@
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-mdpi/darksetting.png"
     },
     {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_upsidedown_t.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/upsidedown_t.png"
+    },
+    {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_shortcake.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/shortcake.png"
     },
     {
-        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_upsidedown_t.png.flat",
-        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xhdpi/upsidedown_t.png"
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_bfivestar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/bfivestar.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_menu.png.flat",
@@ -2154,6 +2294,10 @@
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-ldpi_facebookic.png.flat",
         "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-ldpi/facebookic.png"
+    },
+    {
+        "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_bfivestar.png.flat",
+        "source": "/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/res/drawable-xxhdpi/bfivestar.png"
     },
     {
         "merged": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_password.png.flat",

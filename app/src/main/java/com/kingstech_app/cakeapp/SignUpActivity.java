@@ -33,7 +33,7 @@ public class SignUpActivity extends AppCompatActivity {
         adressET = (EditText) findViewById(R.id.saddressET);
         if(check())
         {
-            Intent intent = new Intent(SignUpActivity.this,SettingActivity.class);
+            Intent intent = new Intent(SignUpActivity.this,HomeActivity.class);
             startActivity(intent);
             finish();
         }

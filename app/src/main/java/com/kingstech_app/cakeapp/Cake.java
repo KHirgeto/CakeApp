@@ -7,14 +7,16 @@ public class Cake {
     int image;
     int cakeNum;
     int cakeTransImage;
+    int cakeRate;
 
-    public Cake(String name, String discription, int cost, int image, int cakeNum, int cakeTransImage) {
+    public Cake(String name, String discription, int cost, int image, int cakeNum, int cakeTransImage,int cakeRate) {
         this.name = name;
         this.discription = discription;
         this.cost = cost;
         this.image = image;
         this.cakeNum = cakeNum;
         this.cakeTransImage = cakeTransImage;
+        this.cakeRate = cakeRate;
     }
 
     public String getName() {
@@ -62,5 +64,13 @@ public class Cake {
 
     public void setCakeTransImage(int cakeTransImage) {
         this.cakeTransImage = cakeTransImage;
+    }
+
+    public int getCakeRate() {
+        return cakeRate;
+    }
+
+    public void setCakeRate(int cakeRate) {
+        this.cakeRate = cakeRate;
     }
 }

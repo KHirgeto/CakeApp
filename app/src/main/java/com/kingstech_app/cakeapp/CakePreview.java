@@ -43,8 +43,8 @@ public class CakePreview extends AppCompatActivity {
         backBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(CakePreview.this,ShopActivity.class);
-                startActivity(intent);
+//
+                finish();
             }
         });
 

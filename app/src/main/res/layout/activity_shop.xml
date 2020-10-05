@@ -13,8 +13,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="122dp"
-        android:layout_height="163dp"
+        android:layout_width="101dp"
+        android:layout_height="100dp"
         android:src="@drawable/logo"
         app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,9 +25,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
+        android:layout_marginTop="10dp"
         android:paddingStart="40dp"
-        android:paddingEnd="20dp"
         android:paddingTop="20dp"
+        android:paddingEnd="20dp"
         android:paddingBottom="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -38,6 +39,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <Button
                 android:id="@+id/springBTN"
                 android:layout_width="wrap_content"
@@ -92,12 +94,46 @@
         android:id="@+id/shopViewPager"
         android:layout_width="match_parent"
         android:layout_height="342dp"
+        android:layout_marginTop="10dp"
         android:clipToPadding="false"
         android:foregroundGravity="bottom"
         android:overScrollMode="never"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="217dp"
+        android:layout_marginBottom="5dp"
+        android:letterSpacing="0.1"
+        android:text="@string/popularCake"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/shopViewPager2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shopViewPager" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/shopViewPager2"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="5dp"
+        android:clipToPadding="false"
+        android:foregroundGravity="center"
+        android:overScrollMode="never"
+        app:layout_constraintBottom_toTopOf="@+id/homeBarLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shopViewPager"
+        app:layout_constraintVertical_bias="0.0" />
 
     <LinearLayout
         android:id="@+id/homeBarLayout"

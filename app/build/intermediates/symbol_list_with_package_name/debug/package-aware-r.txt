@@ -1408,10 +1408,14 @@ drawable back
 drawable bananacake
 drawable barcurve
 drawable bascardirumcake
+drawable bfivestar
+drawable bfourstar
 drawable bntbone
 drawable bntptwo
+drawable bonestar
 drawable bottombar
 drawable brtp
+drawable bthreestar
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1422,6 +1426,7 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable btnbg
 drawable btnbg_no_text
+drawable bttwostar
 drawable cake_list_curvebg
 drawable cake_preview_background
 drawable cakelistbg
@@ -1484,6 +1489,7 @@ drawable mtrl_ic_error
 drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
+drawable mupside
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -1625,6 +1631,7 @@ id auto
 id back
 id barrier
 id beginning
+id blackRateIV
 id blocking
 id bottom
 id buttonPanel
@@ -1789,6 +1796,7 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id rateIV
 id right
 id right_icon
 id right_side
@@ -1822,12 +1830,12 @@ id shopBTN
 id shopCakeCostTV
 id shopCakeIV
 id shopCakeLLayout
-id shopCakeTitleBTN
+id shopCakeTitle
 id shopHomeBTN
-id shopRating
 id shopSettingBTN
 id shopShopBTN
 id shopViewPager
+id shopViewPager2
 id shortcut
 id showCustom
 id showHome

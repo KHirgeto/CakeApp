@@ -41,20 +41,42 @@ public class ShopAdapter extends PagerAdapter{
         View view = LayoutInflater.from(context).inflate(R.layout.main_cake,container,false);
 
         ImageView cakeImage = view.findViewById(R.id.shopCakeIV);
-        final TextView cakeTitle = view.findViewById(R.id.shopCakeTitleBTN);
+        final TextView cakeTitle = view.findViewById(R.id.shopCakeTitle);
       //  RatingBar cakeRate = view.findViewById(R.id.shopRating);
         TextView cakeCost = view.findViewById(R.id.shopCakeCostTV);
         LinearLayout cakeLayout = view.findViewById(R.id.shopCakeLLayout);
+        ImageView rateIV = view.findViewById(R.id.blackRateIV);
 
         final Cake sCake = cakes.get(position);
         final String cakeName = sCake.getName();
         final String cost = "$"+sCake.getCost()+"";
         int image = sCake.getImage();
         int cakeNum = sCake.getCakeNum();
+        int rate = sCake.getCakeRate();
 
         cakeImage.setImageResource(image);
         cakeTitle.setText(cakeName);
         cakeCost.setText(cost);
+        if(rate==5)
+        {
+            rateIV.setBackgroundResource(R.drawable.bfivestar);
+        }
+        else if(rate==4)
+        {
+            rateIV.setBackgroundResource(R.drawable.bfourstar);
+        }
+        else if(rate==3)
+        {
+            rateIV.setBackgroundResource(R.drawable.bthreestar);
+        }
+        else if(rate==2)
+        {
+            rateIV.setBackgroundResource(R.drawable.bttwostar);
+        }
+        else if(rate==1)
+        {
+            rateIV.setBackgroundResource(R.drawable.bonestar);
+        }
         if(cakeNum == 1)
         {
             cakeTitle.setTextColor(context.getResources().getColor(R.color.white));

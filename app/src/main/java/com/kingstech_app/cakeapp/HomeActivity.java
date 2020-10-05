@@ -22,8 +22,8 @@ public class HomeActivity extends AppCompatActivity {
     Button homeBTN, shopBTN,settingBTN;
     LinearLayout barLayout;
 
-    private ArrayList<PopularCake>mPopularCakes;
-    private MyAdapter mMyAdapter;
+    private ArrayList<Cake>mPopularCakes;
+    private PopularCakeAdapter mPopularCakeAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,7 +69,6 @@ public class HomeActivity extends AppCompatActivity {
         loadCards();
 
 
-
         //set mViewPager change listener
         mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
@@ -79,6 +78,7 @@ public class HomeActivity extends AppCompatActivity {
                 if(mPopularCakes.get(position).getCakeNum() == 1)
                 {
                     mConstraintLayout.setBackgroundResource(R.color.one);
+                    barLayout.setBackgroundResource(R.drawable.barcurve);
                 }
 
                 else if(mPopularCakes.get(position).getCakeNum()==2)
@@ -102,24 +102,18 @@ public class HomeActivity extends AppCompatActivity {
 
     private void loadCards() {
         //init list
-        mPopularCakes = new ArrayList<PopularCake>();
-        mPopularCakes.add(new PopularCake(  "Red Velvet Cake",
-                R.drawable.curvecake,
-                1));
-        mPopularCakes.add(new PopularCake(  "Carrot Cake",
-                R.drawable.carrocake,
-                2));
-        mPopularCakes.add(new PopularCake(  "Strawberry Shortcake",
-                R.drawable.strawberrycake,
-                1));
-        mPopularCakes.add(new PopularCake(  "NewYork Style CheeseCake",
-                R.drawable.nycake,
-                2));
+        mPopularCakes = new ArrayList<Cake>();
+        mPopularCakes.add(new Cake("Double Chocolate Cake","A triple layer chocolate dream, filled with a dense chocolate filling and covered with a rich, chocolate buttercream.",30,R.drawable.chocletcake,1,R.drawable.dctp,4));
+        mPopularCakes.add(new Cake("UpsideDown Pineapple Cake","A basic single layer yellow butter cake inverted after baking to reveal a flavor infused glistening mosaic of caramelized canned pineapples.",25,R.drawable.upsidedowncake,2,R.drawable.upsidedown_t,4));
+        mPopularCakes.add(new Cake("Key Lime Pie","Cool zesty cream with sweet graham-cracker crust makes this semi-tart pie a winner. 9&quot Round - 16 Servings",20,R.drawable.keylimepie,1,R.drawable.keylimecake,4));
+        mPopularCakes.add(new Cake("Carrot Cake","Our decadent carrot cake is studded with raisins, freshly grated carrots, pineapple and coconut with a luscious smooth cream cheese filling filling and finish.",30,R.drawable.carootcakecur,2,R.drawable.carrocake,4));
+        mPopularCakes.add(new Cake("Banana Cake","Don't let this bread's simple flavor fool you. Our Banana bread's moist texture will have your mouth watering.",15,R.drawable.bananacake,1,R.drawable.bntbone,4));
+     //  mPopularCakes.add(new Cake("Red Velvet Cheesecake","A luscious three layered cake, a silky smooth layer of cheesecake nestled between two layers of delectable Red Velvet Cake. Icing and toppings optional.",40,R.drawable.redvelvetcheescake,2,R.drawable.rvctp));
 
         //setup adapter
-        mMyAdapter = new MyAdapter(this,mPopularCakes);
+        mPopularCakeAdapter = new PopularCakeAdapter(this,mPopularCakes);
         //set adapter to view pager
-        mViewPager.setAdapter(mMyAdapter);
+        mViewPager.setAdapter(mPopularCakeAdapter);
         //set default padding from left to right
         mViewPager.setPadding(160,0,160,0);
     }

@@ -1,6 +1,7 @@
 package com.kingstech_app.cakeapp;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,18 +10,17 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.nio.InvalidMarkException;
 import java.util.ArrayList;
 
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
-public class MyAdapter extends PagerAdapter {
+public class PopularShopAdapeter extends PagerAdapter {
 
     private Context context;
-    private ArrayList<PopularCake> modelArrayList;
+    private ArrayList<Cake> modelArrayList;
 
-    public MyAdapter(Context context, ArrayList<PopularCake> modelArrayList) {
+    public PopularShopAdapeter(Context context, ArrayList<Cake> modelArrayList) {
         this.context = context;
         this.modelArrayList = modelArrayList;
     }
@@ -48,27 +48,26 @@ public class MyAdapter extends PagerAdapter {
         LinearLayout cakeLayout = view.findViewById(R.id.cakeLL);
 
         //get data
-        PopularCake pCake = modelArrayList.get(position);
+        final Cake pCake = modelArrayList.get(position);
         final String title = pCake.getName();
         int image = pCake.getImage();
         int cakeNum = pCake.getCakeNum();
 
         cakeImage.setImageResource(image);
         cakeTitle.setText(title);
-        if(cakeNum == 1)
-        {
-            cakeLayout.setBackgroundResource(R.color.colorPrimary);
-        }
-        else if(cakeNum ==2)
-        {
-            cakeLayout.setBackgroundResource(R.color.lightWhite);
-        }
         //handel card click
 
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Toast.makeText(context,title,Toast.LENGTH_SHORT).show();
+                TinyDB tinydbCake = new TinyDB(context);
+                tinydbCake.putString("cakeName",pCake.getName());
+                tinydbCake.putString("cakeDisc",pCake.getDiscription());
+                tinydbCake.putString("cakeCost",pCake.getCost()+"");
+                tinydbCake.putInt("cakeImage",pCake.getCakeTransImage());
+                Intent intent = new Intent(context,CakePreview.class);
+                view.getContext().startActivity(intent);
                 //This is where we will write the code to open a new activity which will have the prview of the cake and where the costumer can order cake.
                 //We will have to save the object with current data(position) to shared perefernces and access it later on the preview page.
             }
