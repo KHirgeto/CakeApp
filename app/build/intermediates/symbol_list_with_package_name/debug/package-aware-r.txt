@@ -1915,7 +1915,7 @@ id useLogo
 id userEmail
 id userName
 id userPhoto
-id userPic
+id userPicc
 id viewPager
 id view_offset_helper
 id visible

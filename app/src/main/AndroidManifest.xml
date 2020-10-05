@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.kingstech_app.cakeapp">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -14,14 +15,14 @@
         <activity android:name=".AccountActivity" />
         <activity android:name=".SettingActivity" />
         <activity android:name=".CakeOrderList" />
-        <activity android:name=".SignUpActivity">
+        <activity android:name=".SignUpActivity"/>
+        <activity android:name=".LogInActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LogInActivity" />
         <activity android:name=".HomeActivity" />
     </application>
 

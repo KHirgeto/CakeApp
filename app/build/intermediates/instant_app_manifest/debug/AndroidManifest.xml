@@ -9,6 +9,8 @@
         android:minSdkVersion="19"
         android:targetSdkVersion="29" />
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -24,14 +26,14 @@
         <activity android:name="com.kingstech_app.cakeapp.AccountActivity" />
         <activity android:name="com.kingstech_app.cakeapp.SettingActivity" />
         <activity android:name="com.kingstech_app.cakeapp.CakeOrderList" />
-        <activity android:name="com.kingstech_app.cakeapp.SignUpActivity" >
+        <activity android:name="com.kingstech_app.cakeapp.SignUpActivity" />
+        <activity android:name="com.kingstech_app.cakeapp.LogInActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.kingstech_app.cakeapp.LogInActivity" />
         <activity android:name="com.kingstech_app.cakeapp.HomeActivity" />
 
         <provider

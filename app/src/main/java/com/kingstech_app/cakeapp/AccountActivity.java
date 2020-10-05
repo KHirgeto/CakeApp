@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
 import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.View;
@@ -24,8 +25,10 @@ public class AccountActivity extends AppCompatActivity {
     EditText nameET,passwordET,phoneET,emailET,addressET;
     ImageView mImageView;
     Uri imageValue;
+    Context context;
     private static final int PICK_IMAGE_REGUEST = 1;
     private static final String TAG = "AAAAAAAA";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,37 +66,50 @@ public class AccountActivity extends AppCompatActivity {
                 String phonee = phoneET.getText().toString();
                 String emaill = emailET.getText().toString();
                 String addresss = addressET.getText().toString();
-                SharedPreferences mPrefs = getSharedPreferences("NamePref", Context.MODE_PRIVATE);
-                SharedPreferences.Editor prefsEditor = mPrefs.edit();
+
+
+//                SharedPreferences mPrefs = getSharedPreferences("NamePref", Context.MODE_PRIVATE);
+//                SharedPreferences.Editor prefsEditor = mPrefs.edit();
+                TinyDB tinyDB = new TinyDB(getApplicationContext());
                 if(!namee.isEmpty())
                 {
-                    prefsEditor.remove(mPrefs.getString("name",""));
-                    prefsEditor.putString("name",namee);
+//                    prefsEditor.remove(mPrefs.getString("name",""));
+//                    prefsEditor.putString("name",namee);
+                   // tinyDB.remove("username");
+                    tinyDB.putString("username",namee);
                 }
-                if(passwordd.isEmpty())
+                if(!passwordd.isEmpty())
                 {
-                    prefsEditor.remove(mPrefs.getString("password",""));
-                    prefsEditor.putString("password",passwordd);
+//                    prefsEditor.remove(mPrefs.getString("password",""));
+//                    prefsEditor.putString("password",passwordd);
+                   // tinyDB.remove("password");
+                    tinyDB.putString("password",passwordd);
                 }
-                if(namee.isEmpty())
+                if(!phonee.isEmpty())
                 {
-                    prefsEditor.remove(mPrefs.getString("phone",""));
-                    prefsEditor.putString("phone",phonee);
+//                    prefsEditor.remove(mPrefs.getString("phone",""));
+//                    prefsEditor.putString("phone",phonee);
+                   // tinyDB.remove("phone");
+                    tinyDB.putString("phone",phonee);
                 }
-                if(namee.isEmpty())
+                if(!emaill.isEmpty())
                 {
-                    prefsEditor.remove(mPrefs.getString("email",""));
-                    prefsEditor.putString("email",emaill);
+//                    prefsEditor.remove(mPrefs.getString("email",""));
+//                    prefsEditor.putString("email",emaill);
+                    //tinyDB.remove("email");
+                    tinyDB.putString("email",emaill);
                 }
-                if(namee.isEmpty())
+                if(!addresss.isEmpty())
                 {
-                    prefsEditor.remove(mPrefs.getString("address",""));
-                    prefsEditor.putString("address",addresss);
+//                    prefsEditor.remove(mPrefs.getString("address",""));
+//                    prefsEditor.putString("address",addresss);
+                   // tinyDB.remove("address");
+                    tinyDB.putString("address",addresss);
                 }
-                prefsEditor.commit();
+            //    prefsEditor.commit();
                 Toast.makeText(AccountActivity.this, "Information Updated", Toast.LENGTH_SHORT).show();
-                SharedPreferences mPrefsS = getSharedPreferences("NamePref", Context.MODE_PRIVATE);
-                Log.d(TAG,mPrefsS.getString("name",""));
+//                SharedPreferences mPrefsS = getSharedPreferences("NamePref", Context.MODE_PRIVATE);
+//                Log.d(TAG,mPrefsS.getString("name",""));
             }
         });
     }
@@ -109,13 +125,16 @@ public class AccountActivity extends AppCompatActivity {
         if (requestCode == PICK_IMAGE_REGUEST && resultCode == RESULT_OK
                 && data != null && data.getData() != null) {
             imageValue = data.getData();
-            SharedPreferences shre = getSharedPreferences("picPref", Context.MODE_PRIVATE);
-            SharedPreferences.Editor edit=shre.edit();
-            edit.putString("imagepath","/sdcard/"+imageValue);
-            edit.commit();
+//            SharedPreferences shre = getSharedPreferences("picPref", Context.MODE_PRIVATE);
+//            SharedPreferences.Editor edit=shre.edit();
+            TinyDB tinyDB = new TinyDB(getApplicationContext());
+            tinyDB.putString("imagepath", Environment.getExternalStorageDirectory().getPath()+imageValue);
+            Log.d("imagepath",imageValue.toString());
             Picasso.get().load(imageValue).into(mImageView);
            //File fileLocation = new File(String.valueOf(imageValue));
             //Picasso.with(this).load(fileLocation).into(mImageView);
         }
     }
+
+
 }
