@@ -26,6 +26,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.kingstech_app.cakeapp.OrderDetailPreviewActivity" />
         <activity android:name="com.kingstech_app.cakeapp.CakePreview" />
         <activity android:name="com.kingstech_app.cakeapp.ShopActivity" />
         <activity android:name="com.kingstech_app.cakeapp.AccountActivity" />

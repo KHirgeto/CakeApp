@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.kingstech_app.cakeapp">
-<!--    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>-->
+    <!-- <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/> -->
     <uses-permission android:name="android.permission.SEND_SMS" />
 
     <application
@@ -11,13 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CakePreview"></activity>
+        <activity android:name=".OrderDetailPreviewActivity"></activity>
+        <activity android:name=".CakePreview" />
         <activity android:name=".ShopActivity" />
         <activity android:name=".AccountActivity" />
         <activity android:name=".SettingActivity" />
         <activity android:name=".CakeOrderList" />
-        <activity android:name=".SignUpActivity"/>
-        <activity android:name=".LogInActivity" >
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".LogInActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

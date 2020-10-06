@@ -76,6 +76,15 @@
 
     <string name="hint">Order Note:</string>
 
+    <string name="orderinfo">Order Info</string>
+    <string name="ousername">Name: </string>
+    <string name="ophone">Phone: </string>
+    <string name="oemail">Email: </string>
+    <string name="oaddress">Address: </string>
+    <string name="ocakename">Cake Name: </string>
+    <string name="ocakecost">Cake Cost: </string>
+    <string name="otime">Order Time: </string>
+
 
 
 </resources>

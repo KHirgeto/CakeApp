@@ -130,7 +130,7 @@ public class CakePreview extends AppCompatActivity {
 
                 ActivityCompat.requestPermissions(CakePreview.this,
                         new String[]{Manifest.permission.SEND_SMS}, SEND_SMS_PERMISSION_REQUEST_CODE);
-              //  onSend(view);
+                onSend(view);
                 Toast.makeText(getApplicationContext(),"Order sent",Toast.LENGTH_SHORT).show();
                 finish();
                 //use finish(); to stop user form adding arralist to arraylist of value stored on firebase.

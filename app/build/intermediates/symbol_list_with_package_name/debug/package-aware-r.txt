@@ -1669,6 +1669,7 @@ id always
 id async
 id auto
 id back
+id backOD
 id barrier
 id beginning
 id blackRateIV
@@ -1823,6 +1824,14 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id odIV
+id odaddress
+id odcakecost
+id odcakename
+id odemail
+id odphone
+id odtime
+id odusername
 id off
 id on
 id orderBTN
@@ -2036,6 +2045,7 @@ layout activity_cake_order_list
 layout activity_cake_preview
 layout activity_log_in
 layout activity_main
+layout activity_order_detail_preview
 layout activity_setting
 layout activity_shop
 layout activity_sign_up
@@ -2265,6 +2275,14 @@ string name
 string nullERROR
 string nyccheescake
 string nyccheescakedis
+string oaddress
+string ocakecost
+string ocakename
+string oemail
+string ophone
+string orderinfo
+string otime
+string ousername
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through

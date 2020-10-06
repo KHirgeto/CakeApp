@@ -44,6 +44,10 @@ public class CakeOrderList extends AppCompatActivity {
     ArrayList<String> names = new ArrayList<String>();
     ArrayList<Integer> images = new ArrayList<Integer>();
     ArrayList<String> time = new ArrayList<String>();
+    ArrayList<String> phones = new ArrayList<String>();
+    ArrayList<String> emails = new ArrayList<String>();
+    ArrayList<String> adsresses = new ArrayList<String>();
+    ArrayList<String> costs = new ArrayList<String>();
     //int images[] = {R.drawable.carrocake, R.drawable.dctp, R.drawable.nytp, R.drawable.rvtp, R.drawable.rvtp, R.drawable.bntbone, R.drawable.redvelvetcheescake, R.drawable.brtp, R.drawable.upsidedown_t, R.drawable.keylimecake, R.drawable.carootcakecur, R.drawable.dctp};
 
 
@@ -63,15 +67,18 @@ public class CakeOrderList extends AppCompatActivity {
         });
 
         final ArrayList<Order> mOrders = new ArrayList<Order>();
-        MyAdapter adapter = new MyAdapter(this, cakeNames, names, images,time);
-        cakeLV.setAdapter(adapter);
-        for(Order k:mOrders)
-        {
-            cakeNames.add(k.getCakeName());
-            names.add(k.getCakeName());
-            images.add(k.getImage());
-            time.add(k.getCurrentTime());
-        }
+
+//        for(Order k:mOrders)
+//        {
+//            cakeNames.add(k.getCakeName());
+//            names.add(k.getCakeName());
+//            images.add(k.getImage());
+//            time.add(k.getCurrentTime());
+//            phones.add(k.getPhone());
+//            emails.add(k.getEmail());
+//            adsresses.add(k.getAddress());
+//            costs.add(k.getCakeCost());
+//        }
 
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
@@ -101,7 +108,10 @@ public class CakeOrderList extends AppCompatActivity {
                     names.add(o.getName());
                     images.add(o.getImage());
                     time.add(o.getCurrentTime());
-
+                    phones.add(o.getPhone());
+                    emails.add(o.getEmail());
+                    adsresses.add(o.getAddress());
+                    costs.add(o.getCakeCost());
                 }
 //                ArrayList<String> savedCakeNames = new ArrayList<String>();
 //                for(String m : cakeNames){
@@ -129,21 +139,27 @@ public class CakeOrderList extends AppCompatActivity {
 
 //        MyAdapter adapter = new MyAdapter(this,cakeName,name,time,images);
 //        cakeLV.setAdapter(adapter);
+        MyAdapter adapter = new MyAdapter(this, cakeNames, names, images,time);
+        cakeLV.setAdapter(adapter);
         cakeLV.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if (position == 0) {
-                    Toast.makeText(CakeOrderList.this, "Cake1 Description", Toast.LENGTH_SHORT).show();
-                }
-                if (position == 0) {
-                    Toast.makeText(CakeOrderList.this, "Cake2 Description", Toast.LENGTH_SHORT).show();
-                }
-                if (position == 0) {
-                    Toast.makeText(CakeOrderList.this, "Cake3 Description", Toast.LENGTH_SHORT).show();
-                }
-                if (position == 0) {
-                    Toast.makeText(CakeOrderList.this, "Cake4 Description", Toast.LENGTH_SHORT).show();
-                }
+//                final String name = names.get(position);
+//                final String cakename = cakeNames.get(position);
+//                final int image = images.get(position);
+//                final String order = cakeNames.get(position);
+                TinyDB tinydbOD = new TinyDB(getApplicationContext());
+                tinydbOD.putString("nameOD",names.get(position));
+                tinydbOD.putString("cakeNameOD",cakeNames.get(position));
+                tinydbOD.putInt("imageOD",images.get(position));
+                tinydbOD.putString("timeOD",time.get(position));
+                tinydbOD.putString("phoneOD",phones.get(position));
+                tinydbOD.putString("emailOD",emails.get(position));
+                tinydbOD.putString("addressOD",adsresses.get(position));
+                tinydbOD.putString("cakeCostOD",costs.get(position));
+                Intent intent = new Intent(CakeOrderList.this,OrderDetailPreviewActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                view.getContext().startActivity(intent);
             }
         });
 
