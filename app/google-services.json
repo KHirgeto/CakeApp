@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "199280032902",
+    "firebase_url": "https://cakeapp-23af4.firebaseio.com",
+    "project_id": "cakeapp-23af4",
+    "storage_bucket": "cakeapp-23af4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199280032902:android:c00f25e3b1f1202af26507",
+        "android_client_info": {
+          "package_name": "com.kingstech_app.cakeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199280032902-1qn3v3jtj08kbl4eas9m1e7v7tubkhus.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB1qQOQSBiEZN6hx6eWjRaUXGneWLRcQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199280032902-1qn3v3jtj08kbl4eas9m1e7v7tubkhus.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

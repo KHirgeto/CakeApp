@@ -4,7 +4,7 @@
             "outputFile": "/Users/ghostk/Desktop/App2020/CakeApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/ghostk/.gradle/caches/transforms-2/files-2.1/56cd1674d1ba042c3ed5b8d93134fc80/material-1.2.1/res/values-v23/values-v23.xml",
+                    "source": "/Users/ghostk/.gradle/caches/transforms-2/files-2.1/6dc9bf7cea441b16f699f4451b8593d7/material-1.2.1/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ghostk/.gradle/caches/transforms-2/files-2.1/c53a1cf06eec9ec8e2c1fa79d76edf7f/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/ghostk/.gradle/caches/transforms-2/files-2.1/c7b6252082af7c3db8c761dc5fc777cc/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ghostk/.gradle/caches/transforms-2/files-2.1/c2c5fa787d66aaf40578b3071f4d283f/appcompat-1.1.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/ghostk/.gradle/caches/transforms-2/files-2.1/95c27f1e561f59170f577bf124144243/appcompat-1.1.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,37,41,42,43,44",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

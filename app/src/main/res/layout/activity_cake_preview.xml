@@ -74,7 +74,7 @@
                     <LinearLayout
                         android:layout_marginTop="350dp"
                         android:layout_width="match_parent"
-                        android:layout_height="390dp"
+                        android:layout_height="470dp"
                         android:background="@drawable/cake_preview_background"
                         android:orientation="vertical"
                         tools:layout_editor_absoluteX="0dp"
@@ -115,13 +115,30 @@
 
 
                         </LinearLayout>
+                        <EditText
+                            android:id="@+id/orderNoteET"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@drawable/spinback"
+                            android:layout_margin="20dp"
+                            android:paddingStart="20dp"
+                            android:paddingEnd="20dp"
+                            android:hint="@string/hint"
+                            android:layout_gravity="top"
+                            android:gravity="top"
+                            android:paddingTop="10dp"
+                            android:textSize="18dp"
+                            android:textAllCaps="false"
+                            android:textColor="@color/darkGray"
+                            android:textColorHint="@color/colorPrimaryDark"/>
 
                         <Button
-                            android:layout_width="362dp"
+                            android:id="@+id/orderBTN"
+                            android:layout_width="300dp"
                             android:layout_height="63dp"
                             android:background="@drawable/orderbtn"
                             android:layout_gravity="center"
-                            android:layout_marginTop="30dp"
+                            android:layout_marginTop="20dp"
                             android:text="@string/Order"
                             android:textColor="@color/white"
                             android:textStyle="bold"

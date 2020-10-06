@@ -74,6 +74,8 @@
     <string name="size">6-inch</string>
     <string name="qty">1</string>
 
+    <string name="hint">Order Note:</string>
+
 
 
 </resources>

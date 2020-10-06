@@ -102,6 +102,7 @@ public class SignUpActivity extends AppCompatActivity {
         //tinydbCake.putObject("user",user);
         tinydbCake.putString("username",user.getName());
         tinydbCake.putString("password",user.getPassword());
+        tinydbCake.putString("phone",user.getPhone());
         tinydbCake.putString("email",user.getEmail()+"");
         tinydbCake.putString("address",user.getAddress());
        // tinyDB.getString("username");
