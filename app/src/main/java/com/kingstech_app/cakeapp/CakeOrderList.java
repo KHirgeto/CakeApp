@@ -143,6 +143,7 @@ public class CakeOrderList extends AppCompatActivity {
                 time.remove(i);
                 adapter.notifyDataSetChanged();
                 myRef.child(id.get(i).toString()).removeValue();
+                adapter.notifyDataSetChanged();
                 return true;
             }
         });

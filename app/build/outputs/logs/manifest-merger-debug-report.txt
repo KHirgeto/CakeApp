@@ -59,10 +59,6 @@ INJECTED from /Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest
 		INJECTED from /Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:2:11-69
-uses-permission#android.permission.SEND_SMS
-ADDED from /Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:5:5-67
-	android:name
-		ADDED from /Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:5:22-64
 application
 ADDED from /Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:7:5-29:19
 MERGED from [com.google.android.material:material:1.2.1] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/6dc9bf7cea441b16f699f4451b8593d7/material-1.2.1/AndroidManifest.xml:22:5-20

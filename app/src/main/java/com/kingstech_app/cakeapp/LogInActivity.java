@@ -9,14 +9,17 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.Toast;
+import android.widget.ToggleButton;
 
 import com.google.gson.Gson;
 
 public class LogInActivity extends AppCompatActivity {
     Button logIn, signUp;
     EditText nameET, passwordET;
+    ToggleButton mToggleButton;
     private static final String TAG = "PNPNPNPNPNPNPN";
     private static final String TAG2 = "PNPNPNPNPNPNPN";
     Context context;
@@ -24,11 +27,21 @@ public class LogInActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_log_in);
-
+        mToggleButton = (ToggleButton) findViewById(R.id.toggleBTN);
         logIn = (Button) findViewById(R.id.loginBTN);
         signUp = (Button) findViewById(R.id.newBTN);
         nameET = (EditText) findViewById(R.id.nameET);
         passwordET = (EditText) findViewById(R.id.passwordET);
+        mToggleButton.setText(null);
+        mToggleButton.setTextOn(null);
+        mToggleButton.setTextOff(null);
+        mToggleButton.setBackgroundResource(R.drawable.toggle);
+
+        if(runLoginAuto())
+        {
+            Intent intent = new Intent(LogInActivity.this,HomeActivity.class);
+            startActivity(intent);
+        }
         signUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -37,6 +50,31 @@ public class LogInActivity extends AppCompatActivity {
             }
         });
 
+        mToggleButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+                    // The toggle is enabled
+                    TinyDB tinyDB = new TinyDB(getApplicationContext());
+                    if(nameET.getText().toString().trim().equals(tinyDB.getString("username"))&& passwordET.getText().toString().trim().equals(tinyDB.getString("password")))
+                    {
+                        mToggleButton.setChecked(true);
+                        tinyDB.putBoolean("toggle",true);
+                    }
+                    else if(nameET.getText().toString().equals("")&& passwordET.getText().toString().equals(""))
+                    {
+                        mToggleButton.setChecked(false);
+                        Toast.makeText(getApplicationContext(),"Enter username and password first",Toast.LENGTH_SHORT).show();
+                    }
+
+                  //  Boolean value = true;
+
+                } else {
+                    // The toggle is disabled
+                    TinyDB tinyDB = new TinyDB(getApplicationContext());
+                    tinyDB.putBoolean("toggle",false);
+                }
+            }
+        });
         logIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -48,7 +86,7 @@ public class LogInActivity extends AppCompatActivity {
               //  TinyDB tinyDB = new TinyDB(context);
                  //tinyDB.getString("username");
 
-                if(nameET.getText().toString().equals("Admin")&& passwordET.getText().toString().equals("123"))
+                if(nameET.getText().toString().trim().equals("Admin")&& passwordET.getText().toString().trim().equals("123"))
                 {
                     Intent intent = new Intent(LogInActivity.this,CakeOrderList.class);
                     startActivity(intent);
@@ -85,7 +123,7 @@ public class LogInActivity extends AppCompatActivity {
     public boolean check()
     {
         TinyDB tinyDB = new TinyDB(this);
-        if(nameET.getText().toString().equals(tinyDB.getString("username"))&& passwordET.getText().toString().equals(tinyDB.getString("password")))
+        if(nameET.getText().toString().trim().equals(tinyDB.getString("username"))&& passwordET.getText().toString().trim().equals(tinyDB.getString("password")))
         {
             Log.d("AAAAAAAAAA",tinyDB.getString(""));
             return true;
@@ -95,5 +133,18 @@ public class LogInActivity extends AppCompatActivity {
             return false;
         }
     }
+    public boolean runLoginAuto()
+    {
+        TinyDB tinyDB = new TinyDB(this);
+        if(tinyDB.getBoolean("toggle"))
+        {
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+
 
 }

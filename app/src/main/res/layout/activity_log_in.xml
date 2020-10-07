@@ -27,7 +27,7 @@
             <LinearLayout
                 android:layout_marginTop="20dp"
                 android:layout_width="425dp"
-                android:layout_height="550dp"
+                android:layout_height="590dp"
                 android:orientation="vertical"
                 android:background="@drawable/loginbgtwo"
                 android:layout_gravity="center"
@@ -69,6 +69,7 @@
                         android:paddingStart="20dp"
                         android:paddingEnd="20dp"
                         android:imeOptions="actionNext"
+                        android:singleLine="true"
                         android:textColor="@color/colorPrimaryDark"
                         />
                     <TextView
@@ -87,8 +88,17 @@
                         android:background="@drawable/btnbg"
                         android:paddingStart="20dp"
                         android:paddingEnd="20dp"
-                        android:imeOptions="actionNext"
+                        android:imeOptions="actionDone"
+                        android:singleLine="true"
+                        android:inputType="textPassword"
                         android:textColor="@color/colorPrimaryDark"
+                        />
+                    <ToggleButton
+                        android:id="@+id/toggleBTN"
+                        android:layout_width="63dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="15dp"
                         />
                     <Button
                         android:id="@+id/loginBTN"

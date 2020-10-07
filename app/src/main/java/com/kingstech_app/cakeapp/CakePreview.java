@@ -13,6 +13,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.os.Handler;
 import android.telephony.SmsManager;
 import android.util.Log;
 import android.view.View;
@@ -21,6 +22,8 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -47,15 +50,28 @@ public class CakePreview extends AppCompatActivity {
     ImageView cakeIV;
     String cakeCostString;
     Order order;
+    ScrollView mScrollView;
+    LinearLayout thankyouLL;
     ArrayList<Order> orders = new ArrayList<Order>();
     EditText orderNoteET;
     SmsManager smsManager = SmsManager.getDefault();
     final String numToSend = "4432196888";
+    Handler mHandler = new Handler();
+    Runnable mRunnable = new Runnable() {
+        @Override
+        public void run() {
+            mScrollView.setVisibility(View.GONE);
+            thankyouLL.setVisibility(View.VISIBLE);
+            backBTN.setVisibility(View.VISIBLE);
+
+        }
+    };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cake_preview);
-
+        mScrollView = (ScrollView) findViewById(R.id.scrollLayout);
+        thankyouLL = (LinearLayout) findViewById(R.id.thankyouLL);
         backBTN = (Button) findViewById(R.id.cpBackBTN);
         cakeTitle = (TextView) findViewById(R.id.cpCakeNameTV);
         cakeDisc = (TextView) findViewById(R.id.cpCakeDiscTV);
@@ -63,6 +79,9 @@ public class CakePreview extends AppCompatActivity {
         cakeIV = (ImageView) findViewById(R.id.cpCakeIV);
         orderBTN = (Button) findViewById(R.id.orderBTN);
         orderNoteET = (EditText) findViewById(R.id.orderNoteET);
+        mScrollView.setVisibility(View.VISIBLE);
+        thankyouLL.setVisibility(View.GONE);
+        backBTN.setVisibility(View.VISIBLE);
         Time time = new Time(Calendar.getInstance().getTimeInMillis());
         final String currentTime;
         currentTime = time.toString();
@@ -94,9 +113,7 @@ public class CakePreview extends AppCompatActivity {
                             continue;
                         }
                         orders.add(cakeOrder);
-
                     }
-
                 }
                 Log.d(TAG, "Value is: " + order);
 
@@ -124,7 +141,7 @@ public class CakePreview extends AppCompatActivity {
                 TinyDB tinyDB1 = new TinyDB(getApplicationContext());
                 Order newOrder = null;
                 try {
-                    newOrder = new Order(tinyDB1.getString("username"),tinyDB1.getString("phone"),tinyDB1.getString("email"),tinyDB1.getString("address"),tinyDB1.getString("cakeName"),tinyDB1.getString("cakeCost"),orderNoteET.getText().toString(),tinyDB1.getInt("cakeImage"),currentTime);
+                    newOrder = new Order(tinyDB1.getString("username"),tinyDB1.getString("phone"),tinyDB1.getString("email"),tinyDB1.getString("address"),tinyDB1.getString("cakeName"),tinyDB1.getString("cakeCost"),orderNoteET.getText().toString().trim(),tinyDB1.getInt("cakeImage"),currentTime);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -134,11 +151,15 @@ public class CakePreview extends AppCompatActivity {
                 orders.add(newOrder);
                 myRef.setValue(orders);
 
-                ActivityCompat.requestPermissions(CakePreview.this,
-                        new String[]{Manifest.permission.SEND_SMS}, SEND_SMS_PERMISSION_REQUEST_CODE);
-                onSend(view);
-                Toast.makeText(getApplicationContext(),"Order sent",Toast.LENGTH_SHORT).show();
-                finish();
+                //uncomment the code bellow to be able to send message
+//                ActivityCompat.requestPermissions(CakePreview.this,
+//                        new String[]{Manifest.permission.SEND_SMS}, SEND_SMS_PERMISSION_REQUEST_CODE);
+//                onSend(view);
+
+                mHandler.postDelayed(mRunnable,2000);
+
+               // Toast.makeText(getApplicationContext(),"Order sent",Toast.LENGTH_SHORT).show();
+
                 //use finish(); to stop user form adding arralist to arraylist of value stored on firebase.
             }
         });
@@ -146,31 +167,34 @@ public class CakePreview extends AppCompatActivity {
 
 
     }
-    public void onSend(View v){
-        Order orderInfo= new Order();
-        TinyDB tinyDB2 = new TinyDB(this);
-        orderInfo = tinyDB2.getObject("Order",Order.class);
+    // The two methods commented out bellow might be used in the future to send automatic message.
+//    public void onSend(View v){
+//        Order orderInfo= new Order();
+//        TinyDB tinyDB2 = new TinyDB(this);
+//        orderInfo = tinyDB2.getObject("Order",Order.class);
+//
+//        if(orderInfo.toString().length() == 0){
+//            return;
+//        }
+//
+//        if(checkPermission(Manifest.permission.SEND_SMS)){
+//            SmsManager smsManager = SmsManager.getDefault();
+//            smsManager.sendTextMessage(numToSend, null, orderInfo.toString(), null, null);
+//            Log.d("TEXTSENT",orderInfo.toString());
+//            Log.d("TEXTSENTttt",orderInfo.getName());
+//            Toast.makeText(this, "Message Sent!", Toast.LENGTH_SHORT).show();
+//        }else{
+//            Toast.makeText(this, "Permission Denied", Toast.LENGTH_SHORT).show();
+//        }
+//    }
+//
+//    public boolean checkPermission(String permission){
+//        int check = ContextCompat.checkSelfPermission(this, permission);
+//        return (check == PackageManager.PERMISSION_GRANTED);
+//    }
 
-        if(orderInfo.toString().length() == 0){
-            return;
-        }
-
-        if(checkPermission(Manifest.permission.SEND_SMS)){
-            SmsManager smsManager = SmsManager.getDefault();
-            smsManager.sendTextMessage(numToSend, null, orderInfo.toString(), null, null);
-            Log.d("TEXTSENT",orderInfo.toString());
-            Log.d("TEXTSENTttt",orderInfo.getName());
-            Toast.makeText(this, "Message Sent!", Toast.LENGTH_SHORT).show();
-        }else{
-            Toast.makeText(this, "Permission Denied", Toast.LENGTH_SHORT).show();
-        }
-    }
-
-    public boolean checkPermission(String permission){
-        int check = ContextCompat.checkSelfPermission(this, permission);
-        return (check == PackageManager.PERMISSION_GRANTED);
-    }
-    public String createTransactionID() throws Exception{ //This method is used to create random unique ids. I will use it in the future
-        return UUID.randomUUID().toString().replaceAll("-", "").toUpperCase();
-    }
+//
+//    public String createTransactionID() throws Exception{ //This method is used to create random unique ids. I will use it in the future
+//        return UUID.randomUUID().toString().replaceAll("-", "").toUpperCase();
+//    }
 }
