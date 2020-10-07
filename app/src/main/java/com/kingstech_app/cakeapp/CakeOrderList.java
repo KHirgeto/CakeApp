@@ -49,6 +49,7 @@ public class CakeOrderList extends AppCompatActivity {
     ArrayList<String> phones = new ArrayList<String>();
     ArrayList<String> emails = new ArrayList<String>();
     ArrayList<String> adsresses = new ArrayList<String>();
+    ArrayList<String> ordernotes = new ArrayList<String>();
     ArrayList<String> costs = new ArrayList<String>();
     ArrayList<Integer> id = new ArrayList<Integer>();
 
@@ -76,7 +77,7 @@ public class CakeOrderList extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 if (dataSnapshot != null) {
                     Order order;
-                    order = new Order("", "", "", "", "", "", "",0,"");
+                    order = new Order("", "", "", "", "", "", "",0,"",0);
                     for (DataSnapshot shot : dataSnapshot.getChildren()) {
                         try {
                             order = (Order) shot.getValue(Order.class);
@@ -94,6 +95,7 @@ public class CakeOrderList extends AppCompatActivity {
                     phones.add(o.getPhone());
                     emails.add(o.getEmail());
                     adsresses.add(o.getAddress());
+                    ordernotes.add(o.getAddress());
                     costs.add(o.getCakeCost());
                     id.add(counter);
                     counter++;
@@ -120,6 +122,7 @@ public class CakeOrderList extends AppCompatActivity {
                 tinydbOD.putString("emailOD",emails.get(position));
                 tinydbOD.putString("addressOD",adsresses.get(position));
                 tinydbOD.putString("cakeCostOD",costs.get(position));
+                tinydbOD.putString("ordernoteOD",ordernotes.get(position));
                 Intent intent = new Intent(CakeOrderList.this,OrderDetailPreviewActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 view.getContext().startActivity(intent);
@@ -140,6 +143,7 @@ public class CakeOrderList extends AppCompatActivity {
                 emails.remove(i);
                 adsresses.remove(i);
                 images.remove(i);
+                ordernotes.remove(i);
                 time.remove(i);
                 adapter.notifyDataSetChanged();
                 myRef.child(id.get(i).toString()).removeValue();

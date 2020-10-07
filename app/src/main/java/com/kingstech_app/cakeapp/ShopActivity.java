@@ -123,8 +123,8 @@ public class ShopActivity extends AppCompatActivity {
         fallCakes.add(new Cake("Carrot Cake","Our decadent carrot cake is studded with raisins, freshly grated carrots, pineapple and coconut with a luscious smooth cream cheese filling filling and finish.",30,R.drawable.carootcakecur,2,R.drawable.carrocake,4));
         fallCakes.add(new Cake("Double Chocolate Cake","A triple layer chocolate dream, filled with a dense chocolate filling and covered with a rich, chocolate buttercream.",30,R.drawable.chocletcake,1,R.drawable.dctp,4));
         fallCakes.add(new Cake("New York Cheesecake","A class cheesecake with the decadent twist of lemon and sour cream garnished with fresh strawberries. 9&quot Round - 16 Servings.",30,R.drawable.nycakeone,2,R.drawable.nytp,4));
-        fallCakes.add(new Cake("Red Velvet Cake","This dramatic cake has mild chocolate flavor with a moist tender crumb and a white soft creamy frosting",30,R.drawable.redvalvetcake,1,R.drawable.rvtp,4));
-        fallCakes.add(new Cake("Sweet Potato Cheesecake","Mashed sweet potatoes and spices lend unique flavor to this blend of two classic treats. 9&quot Round - 16 Servings.",40,R.drawable.sweetpotatocake,2,R.drawable.rvtp,4));
+        fallCakes.add(new Cake("Red Velvet Cake","This dramatic cake has mild chocolate flavor with a moist tender crumb and a white soft creamy frosting",30,R.drawable.redvalvetcake,1,R.drawable.rvctp,4));
+        fallCakes.add(new Cake("Sweet Potato Cheesecake","Mashed sweet potatoes and spices lend unique flavor to this blend of two classic treats. 9&quot Round - 16 Servings.",40,R.drawable.sweetpotatocake,2,R.drawable.sptp,4));
 //        fallCakes.add(new Cake("Banana Cake","",15,R.drawable.bananacake,1));
 //        fallCakes.add(new Cake("Red Velvet Cheesecake","",40,R.drawable.redvelvetcheescake,2));
 //        fallCakes.add(new Cake("Bacardi Rum Cake","",30,R.drawable.bascardirumcake,1));
@@ -142,7 +142,7 @@ public class ShopActivity extends AppCompatActivity {
     private void loadSummer() {
         summerCakes = new ArrayList<Cake>();
         summerCakes.add(new Cake("Banana Cake","Don't let this bread's simple flavor fool you. Our Banana bread's moist texture will have your mouth watering.",15,R.drawable.bananacake,1,R.drawable.bntbone,4));
-        summerCakes.add(new Cake("Red Velvet Cheesecake","A luscious three layered cake, a silky smooth layer of cheesecake nestled between two layers of delectable Red Velvet Cake. Icing and toppings optional.",40,R.drawable.redvelvetcheescake,2,R.drawable.rvctp,4));
+        summerCakes.add(new Cake("Red Velvet Cheesecake","A luscious three layered cake, a silky smooth layer of cheesecake nestled between two layers of delectable Red Velvet Cake. Icing and toppings optional.",40,R.drawable.redvelvetcheescake,2,R.drawable.rvtp,4));
         summerCakes.add(new Cake("Bacardi Rum Cake","This Bacardi rum cake is lovely and moist tasting rich and wonderful.",30,R.drawable.bascardirumcake,1,R.drawable.brtp,4));
 
 
@@ -161,7 +161,7 @@ public class ShopActivity extends AppCompatActivity {
         popularCake.add(new Cake("UpsideDown Pineapple Cake","A basic single layer yellow butter cake inverted after baking to reveal a flavor infused glistening mosaic of caramelized canned pineapples.",25,R.drawable.upsidedowncake,2,R.drawable.upsidedown_t,4));
         popularCake.add(new Cake("Key Lime Pie","Cool zesty cream with sweet graham-cracker crust makes this semi-tart pie a winner. 9&quot Round - 16 Servings",20,R.drawable.keylimepie,1,R.drawable.keylimecake,4));
         popularCake.add(new Cake("Carrot Cake","Our decadent carrot cake is studded with raisins, freshly grated carrots, pineapple and coconut with a luscious smooth cream cheese filling filling and finish.",30,R.drawable.carootcakecur,2,R.drawable.carrocake,4));
-        popularCake.add(new Cake("Double Chocolate Cake","A triple layer chocolate dream, filled with a dense chocolate filling and covered with a rich, chocolate buttercream.",30,R.drawable.chocletcake,1,R.drawable.dctp,4));
+     //   popularCake.add(new Cake("Double Chocolate Cake","A triple layer chocolate dream, filled with a dense chocolate filling and covered with a rich, chocolate buttercream.",30,R.drawable.chocletcake,1,R.drawable.dctp,4));
 
         mShopAdapter2 = new PopularShopAdapeter(this,popularCake);
         mViewPager2.setAdapter(mShopAdapter2);

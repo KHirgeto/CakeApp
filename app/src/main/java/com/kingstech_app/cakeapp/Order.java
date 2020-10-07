@@ -12,8 +12,9 @@ public class Order{
     String note;
     int image;
     String currentTime;
+    int qty;
 
-    public Order(String name, String phone, String email, String address, String cakeName, String cakeCost, String note, int image, String currentTime) {
+    public Order(String name, String phone, String email, String address, String cakeName, String cakeCost, String note, int image, String currentTime, int qty) {
         this.name = name;
         this.phone = phone;
         this.email = email;
@@ -23,6 +24,7 @@ public class Order{
         this.note = note;
         this.image = image;
         this.currentTime = currentTime;
+        this.qty = qty;
     }
 
     public Order()
@@ -36,6 +38,7 @@ public class Order{
         this.note = "";
         this.image = 0;
         this.currentTime = "";
+        this.qty = 0;
     }
 
     public String getName() {
@@ -108,6 +111,14 @@ public class Order{
 
     public void setCurrentTime(String currentTime) {
         this.currentTime = currentTime;
+    }
+
+    public int getQty() {
+        return qty;
+    }
+
+    public void setQty(int qty) {
+        this.qty = qty;
     }
 
     @Override

@@ -15,7 +15,9 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.telephony.SmsManager;
+import android.text.SpannableStringBuilder;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Adapter;
 import android.widget.ArrayAdapter;
@@ -53,7 +55,7 @@ public class CakePreview extends AppCompatActivity {
     ScrollView mScrollView;
     LinearLayout thankyouLL;
     ArrayList<Order> orders = new ArrayList<Order>();
-    EditText orderNoteET;
+    EditText orderNoteET,qty;
     SmsManager smsManager = SmsManager.getDefault();
     final String numToSend = "4432196888";
     Handler mHandler = new Handler();
@@ -79,6 +81,7 @@ public class CakePreview extends AppCompatActivity {
         cakeIV = (ImageView) findViewById(R.id.cpCakeIV);
         orderBTN = (Button) findViewById(R.id.orderBTN);
         orderNoteET = (EditText) findViewById(R.id.orderNoteET);
+        qty = (EditText) findViewById(R.id.qty);
         mScrollView.setVisibility(View.VISIBLE);
         thankyouLL.setVisibility(View.GONE);
         backBTN.setVisibility(View.VISIBLE);
@@ -89,11 +92,16 @@ public class CakePreview extends AppCompatActivity {
         String[] sizes = new String[]{"9"+spCh+"x13"+spCh,"13"+spCh+"x18"+spCh,"18"+spCh+"x26"+spCh,};
 
         final TinyDB tinyDB = new TinyDB(this);
+//        int qtyy = Integer.parseInt(qty.getText().toString());
+//        int cost = Integer.parseInt(tinyDB.getString("cakeCost"));
+//        int newV = cost*qtyy;
         cakeCostString = "$"+tinyDB.getString("cakeCost");
         cakeTitle.setText(tinyDB.getString("cakeName"));
         cakeDisc.setText(tinyDB.getString("cakeDisc"));
+        cakeIV.setBackgroundResource(tinyDB.getInt("cakeImage"));
         cakeCost.setText(cakeCostString);
-        cakeIV.setImageResource(tinyDB.getInt("cakeImage"));
+        tinyDB.putString("qty",qty.getText().toString());
+        tinyDB.putString("cakeCost",cakeCostString);
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -104,7 +112,7 @@ public class CakePreview extends AppCompatActivity {
                     orders = new ArrayList<Order>();
                 } else {
                     Order cakeOrder;
-                    cakeOrder = new Order("", "", "", "", "", "", "",0,"");
+                    cakeOrder = new Order("", "", "", "", "", "", "",0,"",0);
                     for (DataSnapshot shot : dataSnapshot.getChildren()) {
                         try {
                             cakeOrder = (Order) shot.getValue(Order.class);
@@ -120,7 +128,6 @@ public class CakePreview extends AppCompatActivity {
 //                String value = dataSnapshot.getValue(String.class);
 //                Log.d(TAG, "Value is: " + value);
             }
-
             @Override
             public void onCancelled(DatabaseError error) {
                 // Failed to read value
@@ -141,11 +148,12 @@ public class CakePreview extends AppCompatActivity {
                 TinyDB tinyDB1 = new TinyDB(getApplicationContext());
                 Order newOrder = null;
                 try {
-                    newOrder = new Order(tinyDB1.getString("username"),tinyDB1.getString("phone"),tinyDB1.getString("email"),tinyDB1.getString("address"),tinyDB1.getString("cakeName"),tinyDB1.getString("cakeCost"),orderNoteET.getText().toString().trim(),tinyDB1.getInt("cakeImage"),currentTime);
+                    int qty = Integer.parseInt(tinyDB1.getString("qty"));
+                    newOrder = new Order(tinyDB1.getString("username"),tinyDB1.getString("phone"),tinyDB1.getString("email"),tinyDB1.getString("address"),tinyDB1.getString("cakeName"),tinyDB1.getString("cakeCost"),orderNoteET.getText().toString().trim(),tinyDB1.getInt("cakeImage"),currentTime,qty);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-                Log.d("VALUE",newOrder.toString());
+//                Log.d("VALUE",newOrder.toString());
                 tinyDB1.putObject("Order",newOrder);
                // String uploadID = myRef.push().getKey();
                 orders.add(newOrder);

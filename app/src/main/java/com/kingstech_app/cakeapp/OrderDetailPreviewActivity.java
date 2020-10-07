@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class OrderDetailPreviewActivity extends AppCompatActivity {
 
-    TextView nameTV,phoneTV,emailTV,addressTV,cakenameTV,cakecostTV,timeTV;
+    TextView nameTV,phoneTV,emailTV,addressTV,cakenameTV,cakecostTV,note,timeTV;
     ImageView cakeIV;
     Button backOD;
     @Override
@@ -23,6 +23,7 @@ public class OrderDetailPreviewActivity extends AppCompatActivity {
         addressTV = (TextView) findViewById(R.id.odaddress);
         cakenameTV = (TextView) findViewById(R.id.odcakename);
         cakecostTV = (TextView) findViewById(R.id.odcakecost);
+        note = (TextView) findViewById(R.id.odnote);
         timeTV = (TextView) findViewById(R.id.odtime);
         cakeIV = (ImageView) findViewById(R.id.odIV);
         backOD = (Button) findViewById(R.id.backOD);
@@ -40,6 +41,7 @@ public class OrderDetailPreviewActivity extends AppCompatActivity {
         addressTV.setText(tinyDB.getString("addressOD"));
         cakenameTV.setText(tinyDB.getString("cakeNameOD"));
         cakecostTV.setText(tinyDB.getString("cakeCostOD"));
+        note.setText(tinyDB.getString("ordernoteOD"));
         timeTV.setText(tinyDB.getString("timeOD"));
         cakeIV.setBackgroundResource(tinyDB.getInt("imageOD"));
     }

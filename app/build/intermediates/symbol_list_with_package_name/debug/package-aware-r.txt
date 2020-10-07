@@ -1833,6 +1833,7 @@ id odaddress
 id odcakecost
 id odcakename
 id odemail
+id odnote
 id odphone
 id odtime
 id odusername
@@ -1853,6 +1854,7 @@ id percent
 id pin
 id progress_circular
 id progress_horizontal
+id qty
 id radio
 id rateIV
 id right
@@ -2286,6 +2288,7 @@ string oaddress
 string ocakecost
 string ocakename
 string oemail
+string onote
 string ophone
 string orderinfo
 string otime
