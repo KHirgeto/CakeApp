@@ -78,8 +78,6 @@ public class PopularCakeAdapter extends PagerAdapter {
                 tinydbCake.putInt("cakeImage",pCake.getCakeTransImage());
                 Intent intent = new Intent(context,CakePreview.class);
                 view.getContext().startActivity(intent);
-                //This is where we will write the code to open a new activity which will have the prview of the cake and where the costumer can order cake.
-                //We will have to save the object with current data(position) to shared perefernces and access it later on the preview page.
             }
         });
 

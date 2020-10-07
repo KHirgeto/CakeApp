@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Dialog;
 import android.content.Context;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -20,6 +21,7 @@ import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -39,7 +41,7 @@ public class CakeOrderList extends AppCompatActivity {
     // ArrayList<Order> mOrders;
     //ArrayList<String> name;
 
-
+    int counter;
     ArrayList<String> cakeNames = new ArrayList<String>();
     ArrayList<String> names = new ArrayList<String>();
     ArrayList<Integer> images = new ArrayList<Integer>();
@@ -48,7 +50,8 @@ public class CakeOrderList extends AppCompatActivity {
     ArrayList<String> emails = new ArrayList<String>();
     ArrayList<String> adsresses = new ArrayList<String>();
     ArrayList<String> costs = new ArrayList<String>();
-    //int images[] = {R.drawable.carrocake, R.drawable.dctp, R.drawable.nytp, R.drawable.rvtp, R.drawable.rvtp, R.drawable.bntbone, R.drawable.redvelvetcheescake, R.drawable.brtp, R.drawable.upsidedown_t, R.drawable.keylimecake, R.drawable.carootcakecur, R.drawable.dctp};
+    ArrayList<Integer> id = new ArrayList<Integer>();
+
 
 
     @Override
@@ -57,7 +60,7 @@ public class CakeOrderList extends AppCompatActivity {
         setContentView(R.layout.activity_cake_order_list);
         logout = (Button) findViewById(R.id.logoutBTN);
         cakeLV = (ListView) findViewById(R.id.cakeListView);
-
+        counter = 0;
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -67,18 +70,6 @@ public class CakeOrderList extends AppCompatActivity {
         });
 
         final ArrayList<Order> mOrders = new ArrayList<Order>();
-
-//        for(Order k:mOrders)
-//        {
-//            cakeNames.add(k.getCakeName());
-//            names.add(k.getCakeName());
-//            images.add(k.getImage());
-//            time.add(k.getCurrentTime());
-//            phones.add(k.getPhone());
-//            emails.add(k.getEmail());
-//            adsresses.add(k.getAddress());
-//            costs.add(k.getCakeCost());
-//        }
 
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
@@ -90,14 +81,6 @@ public class CakeOrderList extends AppCompatActivity {
                         try {
                             order = (Order) shot.getValue(Order.class);
                             mOrders.add(order);
-
-//                            ArrayList<Object> orderListObject = new ArrayList<Object>();
-//
-//                            for(Order m : mOrders){
-//                                orderListObject.add((Object)m);
-//                            }
-//                            TinyDB tinydb = new TinyDB(getApplicationContext());
-//                            tinydb.putListObject("orderlist", orderListObject);
                         } catch (Exception ex) {
                             Log.e(TAG2, ex.toString());
                         }
@@ -112,16 +95,9 @@ public class CakeOrderList extends AppCompatActivity {
                     emails.add(o.getEmail());
                     adsresses.add(o.getAddress());
                     costs.add(o.getCakeCost());
+                    id.add(counter);
+                    counter++;
                 }
-//                ArrayList<String> savedCakeNames = new ArrayList<String>();
-//                for(String m : cakeNames){
-//                    savedCakeNames.add((String) m);
-////                }
-//                TinyDB tinydb = new TinyDB(getApplicationContext());
-//                tinydb.remove("cakenames");
-//                tinydb.putListString("cakenames",cakeNames);
-//                Log.d("TOSAVEDORDER",cakeNames.toString());
-
             }
 
             @Override
@@ -130,24 +106,11 @@ public class CakeOrderList extends AppCompatActivity {
                 Log.w(TAG2, "Failed to read value.", error.toException());
             }
         });
-
-//        TinyDB tinydb = new TinyDB(this);
-//        final ArrayList<String> savednames = tinydb.getListString("cakenames");
-//        cakeNames.clear();
-//        cakeNames.addAll(savednames);
-//        Log.d("NEWSAVEDORDER", cakeNames.toString());
-
-//        MyAdapter adapter = new MyAdapter(this,cakeName,name,time,images);
-//        cakeLV.setAdapter(adapter);
-        MyAdapter adapter = new MyAdapter(this, cakeNames, names, images,time);
+        final MyAdapter adapter = new MyAdapter(this, cakeNames, names, images,time);
         cakeLV.setAdapter(adapter);
         cakeLV.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//                final String name = names.get(position);
-//                final String cakename = cakeNames.get(position);
-//                final int image = images.get(position);
-//                final String order = cakeNames.get(position);
                 TinyDB tinydbOD = new TinyDB(getApplicationContext());
                 tinydbOD.putString("nameOD",names.get(position));
                 tinydbOD.putString("cakeNameOD",cakeNames.get(position));
@@ -162,17 +125,34 @@ public class CakeOrderList extends AppCompatActivity {
                 view.getContext().startActivity(intent);
             }
         });
+        cakeLV.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Toast.makeText(getApplicationContext(),"Long pressed",Toast.LENGTH_SHORT).show();
 
-
+                final DatabaseReference child = myRef.child("message");
+               // String x=  value.toString();
+                myRef.child(String.valueOf(i)).removeValue();
+                cakeNames.remove(i);
+                costs.remove(i);
+                names.remove(i);
+                phones.remove(i);
+                emails.remove(i);
+                adsresses.remove(i);
+                images.remove(i);
+                time.remove(i);
+                adapter.notifyDataSetChanged();
+                myRef.child(id.get(i).toString()).removeValue();
+                return true;
+            }
+        });
     }
-
     class MyAdapter extends ArrayAdapter<String> {
         Context context;
        ArrayList<String> cakeName;
         ArrayList<String> name;
         ArrayList<Integer> rImgs;
         ArrayList<String> time;
-
         MyAdapter(Context c, ArrayList<String> cakeNameList, ArrayList<String> nameList, ArrayList<Integer> imgs,ArrayList<String>timeList) {
             super(c, R.layout.row, R.id.cakenameTV, cakeNameList);
             this.context = c;
@@ -181,7 +161,6 @@ public class CakeOrderList extends AppCompatActivity {
             this.rImgs = imgs;
             this.time = timeList;
         }
-
         @NonNull
         @Override
         public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
@@ -191,13 +170,10 @@ public class CakeOrderList extends AppCompatActivity {
             TextView cakeNamee = row.findViewById(R.id.cakenameTV);
             TextView namee = row.findViewById(R.id.nameTV);
             TextView timee = row.findViewById(R.id.timeTV);
-
             images.setImageResource(rImgs.get(position));
             cakeNamee.setText(cakeName.get(position));
             namee.setText(name.get(position));
             timee.setText(time.get(position));
-
-
             return row;
         }
 

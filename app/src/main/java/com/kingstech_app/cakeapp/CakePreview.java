@@ -34,6 +34,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.sql.Time;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.UUID;
 
 public class CakePreview extends AppCompatActivity {
     final int SEND_SMS_PERMISSION_REQUEST_CODE = 1;
@@ -121,7 +122,12 @@ public class CakePreview extends AppCompatActivity {
             public void onClick(View view) {
 
                 TinyDB tinyDB1 = new TinyDB(getApplicationContext());
-                Order newOrder = new Order(tinyDB1.getString("username"),tinyDB1.getString("phone"),tinyDB1.getString("email"),tinyDB1.getString("address"),tinyDB1.getString("cakeName"),tinyDB1.getString("cakeCost"),orderNoteET.getText().toString(),tinyDB1.getInt("cakeImage"),currentTime);
+                Order newOrder = null;
+                try {
+                    newOrder = new Order(tinyDB1.getString("username"),tinyDB1.getString("phone"),tinyDB1.getString("email"),tinyDB1.getString("address"),tinyDB1.getString("cakeName"),tinyDB1.getString("cakeCost"),orderNoteET.getText().toString(),tinyDB1.getInt("cakeImage"),currentTime);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
                 Log.d("VALUE",newOrder.toString());
                 tinyDB1.putObject("Order",newOrder);
                // String uploadID = myRef.push().getKey();
@@ -163,5 +169,8 @@ public class CakePreview extends AppCompatActivity {
     public boolean checkPermission(String permission){
         int check = ContextCompat.checkSelfPermission(this, permission);
         return (check == PackageManager.PERMISSION_GRANTED);
+    }
+    public String createTransactionID() throws Exception{ //This method is used to create random unique ids. I will use it in the future
+        return UUID.randomUUID().toString().replaceAll("-", "").toUpperCase();
     }
 }
