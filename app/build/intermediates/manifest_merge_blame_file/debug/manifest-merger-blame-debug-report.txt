@@ -6,127 +6,127 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
-8-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml
+8-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml
+9-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml
 10
 11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
 13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->[com.google.firebase:firebase-database:19.2.1] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/afc29f7c2635d0b1232fe57074c16ec8/jetified-firebase-database-19.2.1/AndroidManifest.xml:25:5-79
-13-->[com.google.firebase:firebase-database:19.2.1] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/afc29f7c2635d0b1232fe57074c16ec8/jetified-firebase-database-19.2.1/AndroidManifest.xml:25:22-76
+13-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\afc29f7c2635d0b1232fe57074c16ec8\jetified-firebase-database-19.2.1\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\afc29f7c2635d0b1232fe57074c16ec8\jetified-firebase-database-19.2.1\AndroidManifest.xml:25:22-76
 14    <uses-permission android:name="android.permission.INTERNET" /> <!-- <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/> -->
-14-->[com.google.firebase:firebase-database:19.2.1] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/afc29f7c2635d0b1232fe57074c16ec8/jetified-firebase-database-19.2.1/AndroidManifest.xml:26:5-67
-14-->[com.google.firebase:firebase-database:19.2.1] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/afc29f7c2635d0b1232fe57074c16ec8/jetified-firebase-database-19.2.1/AndroidManifest.xml:26:22-64
+14-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\afc29f7c2635d0b1232fe57074c16ec8\jetified-firebase-database-19.2.1\AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\afc29f7c2635d0b1232fe57074c16ec8\jetified-firebase-database-19.2.1\AndroidManifest.xml:26:22-64
 15    <!-- <uses-permission android:name="android.permission.SEND_SMS" /> -->
 16    <application
-16-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:7:5-29:19
+16-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:7:5-29:19
 17        android:allowBackup="true"
-17-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:8:9-35
+17-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:8:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.2.0] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/6d79eadb82c8d6fd49530c3687aa44a6/core-1.2.0/AndroidManifest.xml:24:18-86
+18-->[androidx.core:core:1.2.0] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\6d79eadb82c8d6fd49530c3687aa44a6\core-1.2.0\AndroidManifest.xml:24:18-86
 19        android:debuggable="true"
 20        android:icon="@mipmap/ic_launcher"
-20-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:9:9-43
+20-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:9:9-43
 21        android:label="@string/app_name"
-21-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:10:9-41
+21-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:10:9-41
 22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:11:9-54
+22-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:11:9-54
 23        android:supportsRtl="true"
-23-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:12:9-35
+23-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:12:9-35
 24        android:testOnly="true"
 25        android:theme="@style/AppTheme" >
-25-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:13:9-40
+25-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:13:9-40
 26        <activity android:name="com.kingstech_app.cakeapp.OrderDetailPreviewActivity" />
-26-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:14:9-73
-26-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:14:19-61
+26-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:14:9-73
+26-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:14:19-61
 27        <activity android:name="com.kingstech_app.cakeapp.CakePreview" />
-27-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:15:9-49
-27-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:15:19-46
+27-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:15:9-49
+27-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:15:19-46
 28        <activity android:name="com.kingstech_app.cakeapp.ShopActivity" />
-28-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:16:9-50
-28-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:16:19-47
+28-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:16:9-50
+28-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:16:19-47
 29        <activity android:name="com.kingstech_app.cakeapp.AccountActivity" />
-29-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:17:9-53
-29-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:17:19-50
+29-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:17:9-53
+29-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:17:19-50
 30        <activity android:name="com.kingstech_app.cakeapp.SettingActivity" />
-30-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:18:9-53
-30-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:18:19-50
+30-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:18:9-53
+30-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:18:19-50
 31        <activity android:name="com.kingstech_app.cakeapp.CakeOrderList" />
-31-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:19:9-51
-31-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:19:19-48
+31-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:19:9-51
+31-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:19:19-48
 32        <activity android:name="com.kingstech_app.cakeapp.SignUpActivity" />
-32-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:20:9-52
-32-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:20:19-49
+32-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:20:9-52
+32-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:20:19-49
 33        <activity android:name="com.kingstech_app.cakeapp.LogInActivity" >
-33-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:21:9-27:20
-33-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:21:19-48
+33-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:21:9-27:20
+33-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:21:19-48
 34            <intent-filter>
-34-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:22:13-26:29
+34-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:22:13-26:29
 35                <action android:name="android.intent.action.MAIN" />
-35-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:23:17-69
-35-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:23:25-66
+35-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:23:17-69
+35-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:23:25-66
 36
 37                <category android:name="android.intent.category.LAUNCHER" />
-37-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:25:17-77
-37-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:25:27-74
+37-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:25:17-77
+37-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:25:27-74
 38            </intent-filter>
 39        </activity>
 40        <activity android:name="com.kingstech_app.cakeapp.HomeActivity" />
-40-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:28:9-50
-40-->/Users/ghostk/Desktop/App2020/CakeApp/app/src/main/AndroidManifest.xml:28:19-47
+40-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:28:9-50
+40-->C:\Users\Digital\Documents\CakeApp\app\src\main\AndroidManifest.xml:28:19-47
 41
 42        <service
-42-->[com.google.firebase:firebase-database:19.2.1] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/afc29f7c2635d0b1232fe57074c16ec8/jetified-firebase-database-19.2.1/AndroidManifest.xml:29:9-35:19
+42-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\afc29f7c2635d0b1232fe57074c16ec8\jetified-firebase-database-19.2.1\AndroidManifest.xml:29:9-35:19
 43            android:name="com.google.firebase.components.ComponentDiscoveryService"
-43-->[com.google.firebase:firebase-database:19.2.1] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/afc29f7c2635d0b1232fe57074c16ec8/jetified-firebase-database-19.2.1/AndroidManifest.xml:30:13-84
+43-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\afc29f7c2635d0b1232fe57074c16ec8\jetified-firebase-database-19.2.1\AndroidManifest.xml:30:13-84
 44            android:directBootAware="true"
-44-->[com.google.firebase:firebase-common:19.3.0] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+44-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
 45            android:exported="false" >
-45-->[com.google.firebase:firebase-database:19.2.1] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/afc29f7c2635d0b1232fe57074c16ec8/jetified-firebase-database-19.2.1/AndroidManifest.xml:31:13-37
+45-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\afc29f7c2635d0b1232fe57074c16ec8\jetified-firebase-database-19.2.1\AndroidManifest.xml:31:13-37
 46            <meta-data
-46-->[com.google.firebase:firebase-database:19.2.1] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/afc29f7c2635d0b1232fe57074c16ec8/jetified-firebase-database-19.2.1/AndroidManifest.xml:32:13-34:85
+46-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\afc29f7c2635d0b1232fe57074c16ec8\jetified-firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
 47                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-47-->[com.google.firebase:firebase-database:19.2.1] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/afc29f7c2635d0b1232fe57074c16ec8/jetified-firebase-database-19.2.1/AndroidManifest.xml:33:17-109
+47-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\afc29f7c2635d0b1232fe57074c16ec8\jetified-firebase-database-19.2.1\AndroidManifest.xml:33:17-109
 48                android:value="com.google.firebase.components.ComponentRegistrar" />
-48-->[com.google.firebase:firebase-database:19.2.1] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/afc29f7c2635d0b1232fe57074c16ec8/jetified-firebase-database-19.2.1/AndroidManifest.xml:34:17-82
+48-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\afc29f7c2635d0b1232fe57074c16ec8\jetified-firebase-database-19.2.1\AndroidManifest.xml:34:17-82
 49        </service>
 50
 51        <provider
-51-->[com.squareup.picasso:picasso:2.71828] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/328bbde4e4e8ee4da449a4b0358e89c2/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+51-->[com.squareup.picasso:picasso:2.71828] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\73b79e88d7c29d29e22fa760fa5dde87\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
 52            android:name="com.squareup.picasso.PicassoProvider"
-52-->[com.squareup.picasso:picasso:2.71828] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/328bbde4e4e8ee4da449a4b0358e89c2/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+52-->[com.squareup.picasso:picasso:2.71828] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\73b79e88d7c29d29e22fa760fa5dde87\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
 53            android:authorities="com.kingstech_app.cakeapp.com.squareup.picasso"
-53-->[com.squareup.picasso:picasso:2.71828] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/328bbde4e4e8ee4da449a4b0358e89c2/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+53-->[com.squareup.picasso:picasso:2.71828] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\73b79e88d7c29d29e22fa760fa5dde87\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
 54            android:exported="false" />
-54-->[com.squareup.picasso:picasso:2.71828] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/328bbde4e4e8ee4da449a4b0358e89c2/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+54-->[com.squareup.picasso:picasso:2.71828] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\73b79e88d7c29d29e22fa760fa5dde87\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
 55
 56        <activity
-56-->[com.google.android.gms:play-services-base:17.0.0] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+56-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 57            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-57-->[com.google.android.gms:play-services-base:17.0.0] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+57-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 58            android:exported="false"
-58-->[com.google.android.gms:play-services-base:17.0.0] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+58-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
 59            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-59-->[com.google.android.gms:play-services-base:17.0.0] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+59-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 60
 61        <provider
-61-->[com.google.firebase:firebase-common:19.3.0] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+61-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
 62            android:name="com.google.firebase.provider.FirebaseInitProvider"
-62-->[com.google.firebase:firebase-common:19.3.0] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+62-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
 63            android:authorities="com.kingstech_app.cakeapp.firebaseinitprovider"
-63-->[com.google.firebase:firebase-common:19.3.0] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+63-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
 64            android:exported="false"
-64-->[com.google.firebase:firebase-common:19.3.0] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+64-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
 65            android:initOrder="100" />
-65-->[com.google.firebase:firebase-common:19.3.0] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+65-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
 66
 67        <meta-data
-67-->[com.google.android.gms:play-services-basement:17.0.0] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+67-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\ad072bd06501b4ced252e97ed9ee745e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 68            android:name="com.google.android.gms.version"
-68-->[com.google.android.gms:play-services-basement:17.0.0] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+68-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\ad072bd06501b4ced252e97ed9ee745e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 69            android:value="@integer/google_play_services_version" />
-69-->[com.google.android.gms:play-services-basement:17.0.0] /Users/ghostk/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+69-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Digital\.gradle\caches\transforms-2\files-2.1\ad072bd06501b4ced252e97ed9ee745e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 70    </application>
 71
 72</manifest>

@@ -69,7 +69,7 @@
                         android:paddingStart="20dp"
                         android:paddingEnd="20dp"
                         android:imeOptions="actionNext"
-                        android:singleLine="true"
+                        android:maxLines="1"
                         android:textColor="@color/colorPrimaryDark"
                         />
                     <TextView
@@ -88,9 +88,9 @@
                         android:background="@drawable/btnbg"
                         android:paddingStart="20dp"
                         android:paddingEnd="20dp"
-                        android:singleLine="true"
                         android:inputType="textPassword"
                         android:imeOptions="actionNext"
+                        android:maxLines="1"
                         android:textColor="@color/colorPrimaryDark"
                         />
                     <TextView
@@ -111,7 +111,7 @@
                         android:paddingStart="20dp"
                         android:paddingEnd="20dp"
                         android:imeOptions="actionNext"
-                        android:singleLine="true"
+                        android:maxLines="1"
                         android:textColor="@color/colorPrimaryDark"
                         />
                     <TextView
@@ -130,8 +130,8 @@
                         android:background="@drawable/btnbg"
                         android:paddingStart="20dp"
                         android:paddingEnd="20dp"
-                        android:singleLine="true"
                         android:imeOptions="actionNext"
+                        android:maxLines="1"
                         android:textColor="@color/colorPrimaryDark"
                         />
                     <TextView
@@ -150,8 +150,8 @@
                         android:background="@drawable/btnbg"
                         android:paddingStart="20dp"
                         android:paddingEnd="20dp"
-                        android:singleLine="true"
-                        android:imeOptions="actionDone"
+                        android:imeOptions="actionNext"
+                        android:maxLines="1"
                         android:textColor="@color/colorPrimaryDark"
                         />
                     <Button

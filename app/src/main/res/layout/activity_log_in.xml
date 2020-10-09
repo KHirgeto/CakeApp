@@ -88,9 +88,9 @@
                         android:background="@drawable/btnbg"
                         android:paddingStart="20dp"
                         android:paddingEnd="20dp"
-                        android:imeOptions="actionDone"
-                        android:singleLine="true"
+                        android:imeOptions="actionNext"
                         android:inputType="textPassword"
+                        android:singleLine="true"
                         android:textColor="@color/colorPrimaryDark"
                         />
                     <ToggleButton

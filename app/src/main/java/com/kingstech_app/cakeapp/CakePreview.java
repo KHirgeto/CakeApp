@@ -104,24 +104,20 @@ public class CakePreview extends AppCompatActivity {
         tinyDB.putString("cakeCost",cakeCostString);
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 // This method is called once with the initial value and again
                 // whenever data at this location is updated.
 
-                if (dataSnapshot == null) {
-                    orders = new ArrayList<Order>();
-                } else {
-                    Order cakeOrder;
-                    cakeOrder = new Order("", "", "", "", "", "", "",0,"",0);
-                    for (DataSnapshot shot : dataSnapshot.getChildren()) {
-                        try {
-                            cakeOrder = (Order) shot.getValue(Order.class);
-                        } catch (Exception ex) {
-                            Log.e(TAG, ex.toString());
-                            continue;
-                        }
-                        orders.add(cakeOrder);
+                Order cakeOrder;
+                cakeOrder = new Order("", "", "", "", "", "", "",0,"",0);
+                for (DataSnapshot shot : dataSnapshot.getChildren()) {
+                    try {
+                        cakeOrder = (Order) shot.getValue(Order.class);
+                    } catch (Exception ex) {
+                        Log.e(TAG, ex.toString());
+                        continue;
                     }
+                    orders.add(cakeOrder);
                 }
                 Log.d(TAG, "Value is: " + order);
 
@@ -129,7 +125,7 @@ public class CakePreview extends AppCompatActivity {
 //                Log.d(TAG, "Value is: " + value);
             }
             @Override
-            public void onCancelled(DatabaseError error) {
+            public void onCancelled(@NonNull DatabaseError error) {
                 // Failed to read value
                 Log.w(TAG, "Failed to read value.", error.toException());
             }
@@ -147,24 +143,22 @@ public class CakePreview extends AppCompatActivity {
 
                 TinyDB tinyDB1 = new TinyDB(getApplicationContext());
                 Order newOrder = null;
-                try {
-                    int qty = Integer.parseInt(tinyDB1.getString("qty"));
-                    newOrder = new Order(tinyDB1.getString("username"),tinyDB1.getString("phone"),tinyDB1.getString("email"),tinyDB1.getString("address"),tinyDB1.getString("cakeName"),tinyDB1.getString("cakeCost"),orderNoteET.getText().toString().trim(),tinyDB1.getInt("cakeImage"),currentTime,qty);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
+
+                   // int qty = Integer.parseInt(tinyDB1.getString("qty"));
+                    newOrder = new Order(tinyDB1.getString("username"),tinyDB1.getString("phone"),tinyDB1.getString("email"),tinyDB1.getString("address"),tinyDB1.getString("cakeName"),tinyDB1.getString("cakeCost"),orderNoteET.getText().toString().trim(),tinyDB1.getInt("cakeImage"),currentTime,0);
+
 //                Log.d("VALUE",newOrder.toString());
                 tinyDB1.putObject("Order",newOrder);
                // String uploadID = myRef.push().getKey();
                 orders.add(newOrder);
                 myRef.setValue(orders);
-
+                finish();
                 //uncomment the code bellow to be able to send message
 //                ActivityCompat.requestPermissions(CakePreview.this,
 //                        new String[]{Manifest.permission.SEND_SMS}, SEND_SMS_PERMISSION_REQUEST_CODE);
 //                onSend(view);
 
-                mHandler.postDelayed(mRunnable,2000);
+             //   mHandler.postDelayed(mRunnable,2000);
 
                // Toast.makeText(getApplicationContext(),"Order sent",Toast.LENGTH_SHORT).show();
 

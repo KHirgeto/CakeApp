@@ -80,6 +80,7 @@ public class CakeOrderList extends AppCompatActivity {
                     order = new Order("", "", "", "", "", "", "",0,"",0);
                     for (DataSnapshot shot : dataSnapshot.getChildren()) {
                         try {
+                            Log.d("NULL", shot.toString());
                             order = (Order) shot.getValue(Order.class);
                             mOrders.add(order);
                         } catch (Exception ex) {

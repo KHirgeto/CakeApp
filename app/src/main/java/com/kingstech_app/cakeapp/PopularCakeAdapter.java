@@ -83,7 +83,7 @@ public class PopularCakeAdapter extends PagerAdapter {
 
         //add view to container
 
-        container.addView(view, position);
+        container.addView(view, position-1);
         return view;
     }
 

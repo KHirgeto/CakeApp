@@ -105,7 +105,7 @@ public class ShopAdapter extends PagerAdapter{
             }
         });
 
-        container.addView(view,position);
+        container.addView(view,position-1);
         return view;
 
     }
